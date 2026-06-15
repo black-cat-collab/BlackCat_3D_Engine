@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<SCENE>
+	<ROOT>
+		<NODE>
+			<TYPE>CAMERA</TYPE>
+			<CAMERA name="Main" near="0.1" far="500000.0" fov="90.0">
+				<POSITION x="0.0" y="0.0" z="0.0"/>
+				<EULER x="0.0" y="0.0" z="0.0"/>
+			</CAMERA>
+		</NODE>
+		<NODE>
+			<TYPE>GEO</TYPE>
+			<NAME>sjz</NAME>
+			<ID>sjz</ID>
+			<BOOT_LOAD>true</BOOT_LOAD>
+			<VISIBLE>true</VISIBLE>
+			<MOVABILITY>0</MOVABILITY>
+			<POSITION x="337.915588" y="258.116791" z="21.274752"/>
+			<AXIS_X x="1.000000" y="0.000000" z="0.000000"/>
+			<AXIS_Y x="0.000000" y="1.000000" z="0.000000"/>
+			<AXIS_Z x="0.000000" y="0.000000" z="1.000000"/>
+			<MODEL_NAME>models/sjz.msh</MODEL_NAME>
+			<SHADOW caster="true" receive="false"/>
+			<SORT>10</SORT>
+		</NODE>
+	</ROOT>
+</SCENE>
+
+

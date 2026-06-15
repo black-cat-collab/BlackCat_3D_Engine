@@ -1,0 +1,18 @@
+<SCRIPT>
+	<MATERIAL name="Tex_Sphere123">
+		<CULL>back</CULL>
+		<DLIGNT>enable</DLIGNT>
+		<DEPTHFUNC func="lequal"/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<COLOR r="0.588000" g="0.588000" b="0.588000"/>
+		<DIFFUSE r="1.000000" g="1.000000" b="1.000000"/>
+		<SPECULAR r="0.900000" g="0.900000" b="0.900000"/>
+		<AMBIENT r="0.588000" g="0.588000" b="0.588000"/>
+		<SHINNESS>25.500000</SHINNESS>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" mipmap="true" filter="LINEAR">resource/extra/Sphere.jpg</MAP>
+		</DIFFUSE_MAP>
+	</MATERIAL>
+</SCRIPT>

@@ -1,0 +1,79 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<SCRIPT>
+  <!-- 自定义 -->
+  <!-- 圆锥底座 -->
+	<MATERIAL name ="cone_dizuo">
+		<CULL>back</CULL>
+		<DEPTHFUNC>lequal</DEPTHFUNC>
+		<BLENDMODE mode="blend">
+			<BLEND func="blend" AlphaThreshold="0.00000" src="GL_ONE" dst="GL_ONE"/>
+		</BLENDMODE>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="animmap" wrap="repeat" mipmap="true" fps="20.0" filter="LINEAR"> 
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000000.png</TEX> 
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000001.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000002.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000003.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000004.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000005.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000006.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000007.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000008.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000009.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000010.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000011.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000012.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000013.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000014.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000015.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000016.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000017.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000018.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000019.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000020.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000021.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000022.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000023.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000024.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000025.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000026.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000027.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000028.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000029.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000030.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000031.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000032.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000033.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000034.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000035.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000036.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000037.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000038.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000039.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000040.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000041.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000042.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000043.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000044.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000045.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000046.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000047.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000048.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000049.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000050.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000051.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000052.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000053.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000054.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000055.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000056.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000057.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000058.png</TEX>
+				<TEX>resource/extra/api/scene/cone_dizuo/dibuyangshi_0000000059.png</TEX>
+			</MAP>
+		</DIFFUSE_MAP>
+	</MATERIAL>
+</SCRIPT>
+

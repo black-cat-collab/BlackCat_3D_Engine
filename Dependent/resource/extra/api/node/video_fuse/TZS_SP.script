@@ -1,0 +1,41 @@
+<SCRIPT>
+	<MATERIAL name="Tex_BLJJDJD_DADIMIAN000000">
+		<CULL>none</CULL>
+		<BLENDMODE mode="blend">
+			<BLEND func="blend" AlphaThreshold="0.000000"/>
+		</BLENDMODE>
+		<TEXANIMATION enable="false" type="0" speed="0.500000"/>
+		<PLANEREFLECT Enable="false" Rate="0.500000" Blur="false"/>
+		<GLOW>
+			<ENABLE>false</ENABLE>
+			<SCALE>0.000000</SCALE>
+			<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000" enable="false"/>
+			<FLASH enable="false" speed="0.0"/>
+			<COLORSCALE>5.000000</COLORSCALE>
+		</GLOW>
+		<VIEWSPECULAR enable="false" Intensity="0.5" BaseIntensity="1.0"/>
+		<SKYOCCLUSION enable="false" Intensity="1.0"/>
+		<FOG>
+			<ENABLE>false</ENABLE>
+		</FOG>
+		<DEPTHFUNC func="lequal"/>
+		<CUBEREFLECT Enable="false" Rate="0.500000" CubeID=""/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<INSTANCED>false</INSTANCED>
+		<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000"/>
+		<BONE Enable="false"/>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLORTYPE>0</COLORTYPE>
+			<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" mipmap="true" filter="LINEAR">resource/extra/api/image/video_fuse/SHW_XCJ_0024.jpg</MAP>
+		</DIFFUSE_MAP>
+		<ALPHA_MAP>
+			<ENABLE>true</ENABLE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" mipmap="true" filter="LINEAR">resource/extra/api/image/video_fuse/TZS_sp_1.png</MAP>
+		</ALPHA_MAP>
+	</MATERIAL>
+</SCRIPT>
+ 

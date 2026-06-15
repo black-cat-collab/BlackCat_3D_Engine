@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<SCRIPT>
+	<MATERIAL name="Tex_wrj_a_0">
+		<BATCHBIND>false</BATCHBIND>
+		<MATERIALPARAMID>paramid_a0bc3a0e-54c5-4600-be4b-e47ef1ca936c</MATERIALPARAMID>
+		<EFFECTSTAGEID>stageid_7085b74e-c49d-4b54-9776-43c77cce95de</EFFECTSTAGEID>
+		<CULL>none</CULL>
+		<BLENDMODE mode="blend">
+			<BLEND func="blend" AlphaThreshold="0.000000"/>
+		</BLENDMODE>
+		<ALPHAFUNC mode="none"/>
+		<TEXANIMATION enable="true" type="2" speed="0.500000"/>
+		<PLANEREFLECT enable="false" rate="0.500000" blur="false"/>
+		<LIGHTINGMODE Mode="PBR">
+			<PBR AO="1.000000" Metallic="0.000000" Roughness="0.700000" Specular="1.000000" Reflect="0.500000"/>
+		</LIGHTINGMODE>
+		<GLOW>
+			<ENABLE>true</ENABLE>
+			<SCALE>0.000000</SCALE>
+			<COLOR_SCALE>20.000000</COLOR_SCALE>
+			<COLOR r="0.012000" g="0.498000" b="0.871000" a="1.000000" enable="true"/>
+			<FLASH enable="false" speed="0.000000"/>
+		</GLOW>
+		<VIEWSPECULAR enable="false" Intensity="0.500000" BaseIntensity="1.000000"/>
+		<DEPTHFUNC func="lequal"/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<INSTANCED>false</INSTANCED>
+		<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000"/>
+		<MSAA>false</MSAA>
+		<DISTANCECLIP enable="false" mode="0" near="0.000000" far="340282346638528859811704183484516925440.000000"/>
+		<LIGHTSPREAD>
+			<ENABLE>false</ENABLE>
+			<SPEED>100.000000</SPEED>
+			<WIDTH>50.000000</WIDTH>
+			<COLOR r="0.800000" g="0.800000" b="0.800000"/>
+			<CENTER x="0.000000" y="0.000000"/>
+			<MAX>5000.000000</MAX>
+			<MIN>0.100000</MIN>
+		</LIGHTSPREAD>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLOR_TYPE>0</COLOR_TYPE>
+			<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+			<UV_SCALE x="2.000000" y="0.800000"/>
+			<COLOR_SCALE>1.000000</COLOR_SCALE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" magfilter="LINEAR" minfilter="LINEAR" mipmap="true" anisotropy="false" fps="1.000000">resource/project/hcjdw/wrj/ray3.png</MAP>
+		</DIFFUSE_MAP>
+	</MATERIAL>
+	<MATERIAL name="Tex_wrj_a_1">
+		<BATCHBIND>false</BATCHBIND>
+		<MATERIALPARAMID>paramid_b5954efb-3e30-4a02-bfe6-992d029194c3</MATERIALPARAMID>
+		<EFFECTSTAGEID>stageid_aaed5f3a-27a5-4592-96e9-dc9a0a8b5eb3</EFFECTSTAGEID>
+		<CULL>none</CULL>
+		<BLENDMODE mode="blend">
+			<BLEND func="blend" AlphaThreshold="0.000000"/>
+		</BLENDMODE>
+		<ALPHAFUNC mode="none"/>
+		<TEXANIMATION enable="true" type="3" speed="90.000000"/>
+		<PLANEREFLECT enable="false" rate="0.500000" blur="false"/>
+		<LIGHTINGMODE Mode="PBR">
+			<PBR AO="1.000000" Metallic="0.000000" Roughness="0.700000" Specular="1.000000" Reflect="0.500000"/>
+		</LIGHTINGMODE>
+		<GLOW>
+			<ENABLE>true</ENABLE>
+			<SCALE>0.000000</SCALE>
+			<COLOR_SCALE>5.000000</COLOR_SCALE>
+			<COLOR r="0.012000" g="0.012000" b="1.000000" a="1.000000" enable="true"/>
+			<FLASH enable="false" speed="0.000000"/>
+		</GLOW>
+		<VIEWSPECULAR enable="false" Intensity="0.500000" BaseIntensity="1.000000"/>
+		<DEPTHFUNC func="lequal"/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<INSTANCED>false</INSTANCED>
+		<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000"/>
+		<MSAA>false</MSAA>
+		<DISTANCECLIP enable="false" mode="0" near="0.000000" far="340282346638528859811704183484516925440.000000"/>
+		<LIGHTSPREAD>
+			<ENABLE>false</ENABLE>
+			<SPEED>100.000000</SPEED>
+			<WIDTH>50.000000</WIDTH>
+			<COLOR r="0.800000" g="0.800000" b="0.800000"/>
+			<CENTER x="0.000000" y="0.000000"/>
+			<MAX>5000.000000</MAX>
+			<MIN>0.100000</MIN>
+		</LIGHTSPREAD>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLOR_TYPE>0</COLOR_TYPE>
+			<COLOR r="0.722000" g="0.820000" b="1.000000" a="1.000000"/>
+			<BORDER_COLOR r="1.000000" g="1.000000" b="1.000000" a="0.000000"/>
+			<UV_SCALE x="1.000000" y="1.000000"/>
+			<COLOR_SCALE>1.000000</COLOR_SCALE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="clamp_to_border" magfilter="LINEAR" minfilter="LINEAR" mipmap="true" anisotropy="false" fps="1.000000">resource/project/hcjdw/wrj/light.png</MAP>
+		</DIFFUSE_MAP>
+	</MATERIAL>
+	<MATERIAL name="Tex_wrj_a_2">
+		<BATCHBIND>false</BATCHBIND>
+		<MATERIALPARAMID>paramid_b469539f-08c2-4374-82d3-dda69a596206</MATERIALPARAMID>
+		<EFFECTSTAGEID>stageid_ef704f39-a5ae-4b9d-9caf-58a6de6d66bf</EFFECTSTAGEID>
+		<CULL>none</CULL>
+		<BLENDMODE mode="blend">
+			<BLEND func="blend" AlphaThreshold="0.200000"/>
+		</BLENDMODE>
+		<ALPHAFUNC mode="none"/>
+		<TEXANIMATION enable="false" type="0" speed="0.500000"/>
+		<PLANEREFLECT enable="false" rate="0.500000" blur="false"/>
+		<LIGHTINGMODE Mode="PBR">
+			<PBR AO="1.000000" Metallic="0.000000" Roughness="0.700000" Specular="1.000000" Reflect="0.500000"/>
+		</LIGHTINGMODE>
+		<GLOW>
+			<ENABLE>false</ENABLE>
+			<SCALE>0.000000</SCALE>
+			<COLOR_SCALE>5.000000</COLOR_SCALE>
+			<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000" enable="false"/>
+			<FLASH enable="false" speed="0.000000"/>
+		</GLOW>
+		<VIEWSPECULAR enable="false" Intensity="0.500000" BaseIntensity="1.000000"/>
+		<DEPTHFUNC func="lequal"/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<INSTANCED>false</INSTANCED>
+		<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000"/>
+		<MSAA>false</MSAA>
+		<DISTANCECLIP enable="false" mode="0" near="0.000000" far="340282346638528859811704183484516925440.000000"/>
+		<LIGHTSPREAD>
+			<ENABLE>false</ENABLE>
+			<SPEED>100.000000</SPEED>
+			<WIDTH>50.000000</WIDTH>
+			<COLOR r="0.800000" g="0.800000" b="0.800000"/>
+			<CENTER x="0.000000" y="0.000000"/>
+			<MAX>5000.000000</MAX>
+			<MIN>0.100000</MIN>
+		</LIGHTSPREAD>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLOR_TYPE>0</COLOR_TYPE>
+			<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+			<UV_SCALE x="1.000000" y="1.000000"/>
+			<COLOR_SCALE>1.000000</COLOR_SCALE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" magfilter="LINEAR" minfilter="LINEAR" mipmap="true" anisotropy="false" fps="1.000000">resource/project/hcjdw/wrj/jingyongjiyi.png</MAP>
+		</DIFFUSE_MAP>
+	</MATERIAL>
+	<MATERIAL name="Tex_wrj_a_3">
+		<BATCHBIND>false</BATCHBIND>
+		<MATERIALPARAMID>paramid_e66ac552-eb05-48a4-b425-3c6808802086</MATERIALPARAMID>
+		<EFFECTSTAGEID>stageid_dc2a5c5a-5730-479f-8dce-b736c3854282</EFFECTSTAGEID>
+		<CULL>none</CULL>
+		<BLENDMODE mode="blend">
+			<BLEND func="blend" AlphaThreshold="0.200000"/>
+		</BLENDMODE>
+		<ALPHAFUNC mode="none"/>
+		<TEXANIMATION enable="false" type="0" speed="0.500000"/>
+		<PLANEREFLECT enable="false" rate="0.500000" blur="false"/>
+		<LIGHTINGMODE Mode="PBR">
+			<PBR AO="1.000000" Metallic="0.000000" Roughness="0.700000" Specular="1.000000" Reflect="0.500000"/>
+		</LIGHTINGMODE>
+		<GLOW>
+			<ENABLE>true</ENABLE>
+			<SCALE>0.000000</SCALE>
+			<COLOR_SCALE>5.000000</COLOR_SCALE>
+			<COLOR r="0.102000" g="0.275000" b="0.918000" a="1.000000" enable="true"/>
+			<FLASH enable="false" speed="0.000000"/>
+		</GLOW>
+		<VIEWSPECULAR enable="false" Intensity="0.500000" BaseIntensity="1.000000"/>
+		<DEPTHFUNC func="lequal"/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<INSTANCED>false</INSTANCED>
+		<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000"/>
+		<MSAA>false</MSAA>
+		<DISTANCECLIP enable="false" mode="0" near="0.000000" far="340282346638528859811704183484516925440.000000"/>
+		<LIGHTSPREAD>
+			<ENABLE>false</ENABLE>
+			<SPEED>100.000000</SPEED>
+			<WIDTH>50.000000</WIDTH>
+			<COLOR r="0.800000" g="0.800000" b="0.800000"/>
+			<CENTER x="0.000000" y="0.000000"/>
+			<MAX>5000.000000</MAX>
+			<MIN>0.100000</MIN>
+		</LIGHTSPREAD>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLOR_TYPE>0</COLOR_TYPE>
+			<COLOR r="0.773000" g="0.812000" b="1.000000" a="1.000000"/>
+			<UV_SCALE x="1.000000" y="1.000000"/>
+			<COLOR_SCALE>1.000000</COLOR_SCALE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" magfilter="LINEAR" minfilter="LINEAR" mipmap="true" anisotropy="false" fps="1.000000">resource/project/hcjdw/wrj/dun.png</MAP>
+		</DIFFUSE_MAP>
+	</MATERIAL>
+	<MATERIAL name="Tex_wrj_a_4">
+		<BATCHBIND>false</BATCHBIND>
+		<MATERIALPARAMID>paramid_bfd0bf98-024f-4ec0-9d8f-c527b315c951</MATERIALPARAMID>
+		<EFFECTSTAGEID>stageid_5402fa54-3a38-45e0-bc8f-b04689a85769</EFFECTSTAGEID>
+		<CULL>back</CULL>
+		<BLENDMODE mode="none">
+			<BLEND func="blend" AlphaThreshold="0.200000"/>
+		</BLENDMODE>
+		<ALPHAFUNC mode="none"/>
+		<TEXANIMATION enable="false" type="0" speed="0.500000"/>
+		<PLANEREFLECT enable="false" rate="0.500000" blur="false"/>
+		<LIGHTINGMODE Mode="PBR">
+			<PBR AO="1.000000" Metallic="0.000000" Roughness="0.700000" Specular="1.000000" Reflect="0.500000"/>
+		</LIGHTINGMODE>
+		<GLOW>
+			<ENABLE>false</ENABLE>
+			<SCALE>0.000000</SCALE>
+			<COLOR_SCALE>5.000000</COLOR_SCALE>
+			<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000" enable="false"/>
+			<FLASH enable="false" speed="0.000000"/>
+		</GLOW>
+		<VIEWSPECULAR enable="false" Intensity="0.500000" BaseIntensity="1.000000"/>
+		<DEPTHFUNC func="lequal"/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<INSTANCED>false</INSTANCED>
+		<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000"/>
+		<MSAA>false</MSAA>
+		<DISTANCECLIP enable="false" mode="0" near="0.000000" far="340282346638528859811704183484516925440.000000"/>
+		<LIGHTSPREAD>
+			<ENABLE>false</ENABLE>
+			<SPEED>100.000000</SPEED>
+			<WIDTH>50.000000</WIDTH>
+			<COLOR r="0.800000" g="0.800000" b="0.800000"/>
+			<CENTER x="0.000000" y="0.000000"/>
+			<MAX>5000.000000</MAX>
+			<MIN>0.100000</MIN>
+		</LIGHTSPREAD>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLOR_TYPE>0</COLOR_TYPE>
+			<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+			<UV_SCALE x="1.000000" y="1.000000"/>
+			<COLOR_SCALE>1.000000</COLOR_SCALE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" magfilter="LINEAR" minfilter="LINEAR" mipmap="true" anisotropy="false" fps="1.000000">resource/project/hcjdw/wrj/wrj_jy.dds</MAP>
+		</DIFFUSE_MAP>
+	</MATERIAL>
+	<MATERIAL name="Tex_wrj_a_5">
+		<BATCHBIND>false</BATCHBIND>
+		<MATERIALPARAMID>paramid_af9439c7-4cb3-4967-9043-0b6fbf2a43f1</MATERIALPARAMID>
+		<EFFECTSTAGEID>stageid_633ce942-bed8-4ca4-8aa3-34210c742d15</EFFECTSTAGEID>
+		<CULL>none</CULL>
+		<BLENDMODE mode="blend">
+			<BLEND func="blend" AlphaThreshold="0.200000"/>
+		</BLENDMODE>
+		<ALPHAFUNC mode="none"/>
+		<TEXANIMATION enable="true" type="3" speed="10.000000"/>
+		<PLANEREFLECT enable="false" rate="0.500000" blur="false"/>
+		<LIGHTINGMODE Mode="PBR">
+			<PBR AO="1.000000" Metallic="0.000000" Roughness="0.700000" Specular="1.000000" Reflect="0.500000"/>
+		</LIGHTINGMODE>
+		<GLOW>
+			<ENABLE>true</ENABLE>
+			<SCALE>0.000000</SCALE>
+			<COLOR_SCALE>10.000000</COLOR_SCALE>
+			<COLOR r="0.176000" g="0.231000" b="1.000000" a="1.000000" enable="true"/>
+			<FLASH enable="false" speed="0.000000"/>
+		</GLOW>
+		<VIEWSPECULAR enable="false" Intensity="0.500000" BaseIntensity="1.000000"/>
+		<DEPTHFUNC func="lequal"/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<INSTANCED>false</INSTANCED>
+		<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000"/>
+		<MSAA>false</MSAA>
+		<DISTANCECLIP enable="false" mode="0" near="0.000000" far="340282346638528859811704183484516925440.000000"/>
+		<LIGHTSPREAD>
+			<ENABLE>false</ENABLE>
+			<SPEED>100.000000</SPEED>
+			<WIDTH>50.000000</WIDTH>
+			<COLOR r="0.800000" g="0.800000" b="0.800000"/>
+			<CENTER x="0.000000" y="0.000000"/>
+			<MAX>5000.000000</MAX>
+			<MIN>0.100000</MIN>
+		</LIGHTSPREAD>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLOR_TYPE>0</COLOR_TYPE>
+			<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+			<BORDER_COLOR r="1.000000" g="1.000000" b="1.000000" a="0.000000"/>
+			<UV_SCALE x="1.000000" y="1.000000"/>
+			<COLOR_SCALE>1.000000</COLOR_SCALE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="clamp_to_border" magfilter="LINEAR" minfilter="LINEAR" mipmap="true" anisotropy="false" fps="1.000000">resource/project/hcjdw/wrj/leida.png</MAP>
+		</DIFFUSE_MAP>
+	</MATERIAL>
+</SCRIPT>
+

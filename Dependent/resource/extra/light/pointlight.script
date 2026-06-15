@@ -1,0 +1,103 @@
+<SCRIPT>
+	<MATERIAL name="Tex_dengpao_0">
+		<CULL>back</CULL>
+		<BLENDMODE mode="none">
+			<BLEND func="blend" AlphaThreshold="0.000000"/>
+		</BLENDMODE>
+		<TEXANIMATION enable="false" type="0" speed="0.500000"/>
+		<PLANEREFLECT enable="false" rate="0.500000" blur="false"/>
+		<LIGHTINGMODE Mode="PBR">
+			<PBR AO="1.000000" Metallic="0.800000" Roughness="0.200000" Specular="1.000000"/>
+		</LIGHTINGMODE>
+		<GLOW>
+			<ENABLE>false</ENABLE>
+			<SCALE>0.000000</SCALE>
+			<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000" enable="false"/>
+			<FLASH enable="false" speed="1.000000"/>
+		</GLOW>
+		<VIEWSPECULAR enable="false" Intensity="0.500000" BaseIntensity="1.000000"/>
+		<DEPTHFUNC func="lequal"/>
+		<CUBEREFLECT enable="false" rate="1.000000" cubeid="" boxprojection="false"/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<INSTANCED>false</INSTANCED>
+		<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+		<MSAA>false</MSAA>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLORTYPE>0</COLORTYPE>
+			<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" mipmap="true" filter="LINEAR">resource/extra/light/WZY_0060.jpg</MAP>
+		</DIFFUSE_MAP>
+	</MATERIAL>
+	<MATERIAL name="Tex_dengpao_1">
+		<CULL>back</CULL>
+		<BLENDMODE mode="none">
+			<BLEND func="blend" AlphaThreshold="0.000000"/>
+		</BLENDMODE>
+		<TEXANIMATION enable="false" type="0" speed="0.500000"/>
+		<PLANEREFLECT enable="false" rate="0.500000" blur="false"/>
+		<LIGHTINGMODE Mode="PBR">
+			<PBR AO="1.000000" Metallic="0.800000" Roughness="0.200000" Specular="1.000000"/>
+		</LIGHTINGMODE>
+		<GLOW>
+			<ENABLE>false</ENABLE>
+			<SCALE>0.000000</SCALE>
+			<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000" enable="false"/>
+			<FLASH enable="false" speed="1.000000"/>
+		</GLOW>
+		<VIEWSPECULAR enable="false" Intensity="0.500000" BaseIntensity="1.000000"/>
+		<DEPTHFUNC func="lequal"/>
+		<CUBEREFLECT enable="false" rate="1.000000" cubeid="" boxprojection="false"/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<INSTANCED>false</INSTANCED>
+		<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+		<MSAA>false</MSAA>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLORTYPE>0</COLORTYPE>
+			<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" mipmap="true" filter="LINEAR">resource/extra/light/WZY_0005.jpg</MAP>
+		</DIFFUSE_MAP>
+	</MATERIAL>
+	<MATERIAL name="Tex_dengpao_2">
+		<CULL>back</CULL>
+		<BLENDMODE mode="none">
+			<BLEND func="blend" AlphaThreshold="0.000000"/>
+		</BLENDMODE>
+		<TEXANIMATION enable="false" type="0" speed="0.500000"/>
+		<PLANEREFLECT enable="false" rate="0.500000" blur="false"/>
+		<LIGHTINGMODE Mode="EMISSIVE">
+			<PBR AO="1.000000" Metallic="0.000000" Roughness="0.600000" Specular="1.000000"/>
+		</LIGHTINGMODE>
+		<GLOW>
+			<ENABLE>false</ENABLE>
+			<SCALE>0.000000</SCALE>
+			<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000" enable="false"/>
+			<FLASH enable="false" speed="1.000000"/>
+		</GLOW>
+		<VIEWSPECULAR enable="false" Intensity="0.500000" BaseIntensity="1.000000"/>
+		<DEPTHFUNC func="lequal"/>
+		<CUBEREFLECT enable="false" rate="1.000000" cubeid="" boxprojection="false"/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<INSTANCED>false</INSTANCED>
+		<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+		<MSAA>false</MSAA>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLORTYPE>0</COLORTYPE>
+			<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" mipmap="true" filter="LINEAR">resource/extra/light/WZY_0002.jpg</MAP>
+		</DIFFUSE_MAP>
+		<EMISSIVE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLORTYPE>0</COLORTYPE>
+			<COLOR_SCALE>1.0</COLOR_SCALE>
+			<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" mipmap="true" filter="LINEAR">resource/extra/light/WZY_0002.jpg</MAP>
+		</EMISSIVE_MAP>
+	</MATERIAL>
+</SCRIPT>

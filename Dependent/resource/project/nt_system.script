@@ -1,0 +1,90 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<SCRIPT>
+	<MATERIAL name ="ProgressBar">
+		<CULL>none</CULL>
+		<BLENDFUNC func="blend"/>
+		<DEPTHFUNC>lequal</DEPTHFUNC>
+		<DLIGHT>false</DLIGHT>
+		<COLOR r="0.0" g="1" b="1"></COLOR>
+		<DIFFUSE r="0.0" g="1" b="1"></DIFFUSE>
+		<SPECULAR r="0" g="1" b="1"></SPECULAR>
+		<AMBIENT r="0" g="1" b="1"></AMBIENT>
+		<SHINNESS>25.0</SHINNESS>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" mipmap="true" filter="LINEAR">resource/project/sjk_demo/progress/loading.png</MAP>
+		</DIFFUSE_MAP>
+	</MATERIAL> 
+	<!-- 自定义 -->
+	<MATERIAL name ="xunjiandian">
+		<CULL>back</CULL>
+		<DEPTHFUNC>lequal</DEPTHFUNC>
+		<BLENDMODE mode="blend">
+			<BLEND func="blend" AlphaThreshold="0.00000" src="GL_ONE" dst="GL_ONE"/>
+		</BLENDMODE>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="animmap" wrap="repeat" mipmap="true" fps="20.0" filter="LINEAR"> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00000.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00001.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00002.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00003.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00004.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00005.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00006.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00007.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00008.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00009.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00010.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00011.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00012.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00013.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00014.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00015.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00016.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00017.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00018.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00019.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00020.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00021.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00022.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00023.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00024.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00025.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00026.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00027.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00028.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00029.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00030.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00031.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00032.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00033.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00034.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00035.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00036.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00037.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00038.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00039.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00040.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00041.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00042.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00043.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00044.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00045.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00046.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00047.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00048.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00049.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00050.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00051.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00052.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00053.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00054.png</TEX> 
+				<TEX>resource/project/sjk_demo/scene/lanlvsekuosan/lanse_00055.png</TEX> 
+			</MAP>
+		</DIFFUSE_MAP>
+	</MATERIAL>
+</SCRIPT>
+
