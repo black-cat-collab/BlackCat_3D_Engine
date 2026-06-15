@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<SCENE>
+	<ROOT>
+		<NODE>
+			<NAME>ShellNode_1F39DADB-8B24-4C31-B8E8-D31B2E06B259</NAME>
+			<ID>ShellNode_1F39DADB-8B24-4C31-B8E8-D31B2E06B259</ID>
+			<MODEL_NAME/>
+			<POSITION x="0.000000" y="0.000000" z="0.000000"/>
+			<CENTER_POSITION x="0.000000" y="0.000000" z="0.000000"/>
+			<VISIBLE>true</VISIBLE>
+			<CLICK enable="true"/>
+			<HOVER enable="true"/>
+			<BASE_COLOR r="1.000000" g="0.000000" b="1.000000" a="0.500000"/>
+			<HOVER_COLOR r="0.000000" g="1.000000" b="1.000000" a="0.500000"/>
+			<SELECT_COLOR r="1.000000" g="1.000000" b="0.000000" a="0.500000"/>
+			<MESH_OFFSET value="0"/>
+			<MESH_SIZE value="172461"/>
+		</NODE>
+	</ROOT>
+</SCENE>
+
+

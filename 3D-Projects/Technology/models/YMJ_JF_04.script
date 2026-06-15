@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<SCRIPT>
+	<MATERIAL name="Tex_YMJ_JF_04">
+		<BATCHBIND>false</BATCHBIND>
+		<MATERIALPARAMID>paramid_2d10a40e-e84c-4399-840f-7bcd2bf848be</MATERIALPARAMID>
+		<EFFECTSTAGEID>stageid_494b189b-c1c3-4df5-b1b2-ef8d9d97bc48</EFFECTSTAGEID>
+		<CULL>none</CULL>
+		<BLENDMODE mode="none">
+			<BLEND func="blend" AlphaThreshold="0.200000"/>
+		</BLENDMODE>
+		<ALPHAFUNC mode="none"/>
+		<TEXANIMATION enable="false" type="0" speed="0.500000"/>
+		<PLANEREFLECT enable="false" rate="0.500000" blur="false"/>
+		<LIGHTINGMODE Mode="PBR">
+			<PBR AO="1.000000" Metallic="0.400000" Roughness="0.240000" Specular="0.000000" Reflect="1.000000"/>
+		</LIGHTINGMODE>
+		<GLOW>
+			<ENABLE>false</ENABLE>
+			<SCALE>0.000000</SCALE>
+			<COLOR_SCALE>5.000000</COLOR_SCALE>
+			<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000" enable="false"/>
+			<FLASH enable="false" speed="0.000000"/>
+		</GLOW>
+		<VIEWSPECULAR enable="false" Intensity="0.500000" BaseIntensity="1.000000"/>
+		<DEPTHFUNC func="lequal"/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<INSTANCED>false</INSTANCED>
+		<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000"/>
+		<MSAA>false</MSAA>
+		<DISTANCECLIP enable="false" mode="0" near="0.000000" far="340282346638528859811704183484516925440.000000"/>
+		<LIGHTSPREAD>
+			<ENABLE>false</ENABLE>
+			<SPEED>100.000000</SPEED>
+			<WIDTH>50.000000</WIDTH>
+			<COLOR r="0.800000" g="0.800000" b="0.800000"/>
+			<CENTER x="0.000000" y="0.000000"/>
+			<MAX>5000.000000</MAX>
+			<MIN>0.100000</MIN>
+		</LIGHTSPREAD>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLOR_TYPE>0</COLOR_TYPE>
+			<COLOR r="0.573000" g="0.635000" b="0.639000" a="1.000000"/>
+			<UV_SCALE x="1.000000" y="1.000000"/>
+			<COLOR_SCALE>1.000000</COLOR_SCALE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" magfilter="LINEAR" minfilter="LINEAR" mipmap="true" anisotropy="false" fps="1.000000">textures/YMJ_JF0002.jpg</MAP>
+		</DIFFUSE_MAP>
+	</MATERIAL>
+</SCRIPT>
+

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<SCENE>
+	<ROOT>
+		<NODE>
+			<TYPE>CAMERA</TYPE>
+			<CAMERA name="Main" near="0.1" far="500000.0" fov="90.0">
+				<POSITION x="0.0" y="0.0" z="0.0"/>
+				<EULER x="0.0" y="0.0" z="0.0"/>
+			</CAMERA>
+		</NODE>
+	</ROOT>
+</SCENE>
+
+

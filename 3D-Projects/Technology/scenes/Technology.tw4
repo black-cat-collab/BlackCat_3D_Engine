@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<SCENE>
+	<ROOT>
+		<NODE>
+			<TYPE>CAMERA</TYPE>
+			<CAMERA name="Main" id="Node_F147966D-2FEA-49CC-A823-4E2FC39CA6C8" near="0.100000" far="500000.000000" fov="90.000000">
+				<POSITION x="-1.284571" y="21.282335" z="12.683681"/>
+				<EULER x="34.211426" y="274.229736" z="-0.000000"/>
+			</CAMERA>
+		</NODE>
+		<NODE>
+			<TYPE>GEO</TYPE>
+			<NAME>YMJ_JF_04</NAME>
+			<ID>YMJ_JF_04</ID>
+			<BOOT_LOAD>true</BOOT_LOAD>
+			<POSITION x="0.000000" y="0.000000" z="-0.069710"/>
+			<AXIS_X x="2.000000" y="0.000000" z="0.000000"/>
+			<AXIS_Y x="0.000000" y="2.000000" z="0.000000"/>
+			<AXIS_Z x="0.000000" y="0.000000" z="2.000000"/>
+			<MODEL_NAME>models/YMJ_JF_04.msh</MODEL_NAME>
+			<SORT>10</SORT>
+			<VISIBLE>true</VISIBLE>
+			<VIDEO_FUSION>false</VIDEO_FUSION>
+			<MOVABILITY>0</MOVABILITY>
+			<LOAD_TYPE>1</LOAD_TYPE>
+			<SHADOW caster="true"/>
+		</NODE>
+		<NODE>
+			<TYPE>GEO</TYPE>
+			<NAME>YMJ_JF_05</NAME>
+			<ID>YMJ_JF_05</ID>
+			<BOOT_LOAD>true</BOOT_LOAD>
+			<POSITION x="0.570797" y="-0.838632" z="0.000000"/>
+			<AXIS_X x="1.000000" y="0.000000" z="0.000000"/>
+			<AXIS_Y x="0.000000" y="1.000000" z="0.000000"/>
+			<AXIS_Z x="0.000000" y="0.000000" z="1.000000"/>
+			<MODEL_NAME>models/YMJ_JF_05.msh</MODEL_NAME>
+			<SORT>20</SORT>
+			<VISIBLE>true</VISIBLE>
+			<VIDEO_FUSION>false</VIDEO_FUSION>
+			<MOVABILITY>0</MOVABILITY>
+			<LOAD_TYPE>1</LOAD_TYPE>
+			<SHADOW caster="true"/>
+		</NODE>
+		<NODE>
+			<TYPE>GEO</TYPE>
+			<NAME>YMJ_JF_007</NAME>
+			<ID>YMJ_JF_007</ID>
+			<BOOT_LOAD>true</BOOT_LOAD>
+			<POSITION x="0.372041" y="-0.838632" z="0.000000"/>
+			<AXIS_X x="3.000000" y="0.000000" z="0.000000"/>
+			<AXIS_Y x="0.000000" y="3.000000" z="0.000000"/>
+			<AXIS_Z x="0.000000" y="0.000000" z="3.000000"/>
+			<MODEL_NAME>models/YMJ_JF_007.msh</MODEL_NAME>
+			<SORT>20</SORT>
+			<VISIBLE>true</VISIBLE>
+			<VIDEO_FUSION>false</VIDEO_FUSION>
+			<MOVABILITY>0</MOVABILITY>
+			<LOAD_TYPE>1</LOAD_TYPE>
+			<SHADOW caster="true"/>
+		</NODE>
+		<NODE>
+			<TYPE>LIGHT</TYPE>
+			<ATTRIB type="sun" render="false" open="false" intensity="10.000000" specularIntensity="1.000000" lightWidth="1.000000" shadowQuality="3" shadowIntensity="1.000000" shadowType="1" shadowFilter="2"/>
+			<TEMPERATURE base="25.000000" scale="10.000000" enable="true"/>
+			<SHADOW_BIAS>
+				<BIAS base="0.001000" scale="0.002000"/>
+				<BIAS base="0.001000" scale="0.002000"/>
+				<BIAS base="0.001000" scale="0.002000"/>
+				<BIAS base="0.001000" scale="0.002000"/>
+				<BIAS base="0.001000" scale="0.002000"/>
+			</SHADOW_BIAS>
+			<DIFFUSE x="1.000000" y="1.000000" z="1.000000"/>
+			<EULER x="-0.000000" y="0.000000" z="0.000000"/>
+			<NAME>太阳光</NAME>
+			<ID>Node_41AA7B00-D277-42AF-82C2-20DA7A6CC354</ID>
+			<BOOT_LOAD>true</BOOT_LOAD>
+			<POSITION x="-1.302055" y="-282821.437500" z="282855.406250"/>
+			<AXIS_X x="1.000000" y="0.000000" z="0.000000"/>
+			<AXIS_Y x="0.000000" y="1.000000" z="0.000000"/>
+			<AXIS_Z x="0.000000" y="0.000000" z="1.000000"/>
+			<MODEL_NAME/>
+			<SORT>10</SORT>
+			<VISIBLE>false</VISIBLE>
+			<VIDEO_FUSION>false</VIDEO_FUSION>
+			<MOVABILITY>0</MOVABILITY>
+			<LOAD_TYPE>1</LOAD_TYPE>
+			<SHADOW caster="false"/>
+		</NODE>
+		<NODE>
+			<TYPE>LIGHT</TYPE>
+			<ATTRIB type="moon" render="false" open="true" intensity="3.000000" specularIntensity="1.000000" lightWidth="1.000000" shadowQuality="3" shadowIntensity="1.000000" shadowType="1" shadowFilter="2"/>
+			<SHADOW_BIAS>
+				<BIAS base="0.001000" scale="0.002000"/>
+				<BIAS base="0.001000" scale="0.002000"/>
+				<BIAS base="0.001000" scale="0.002000"/>
+				<BIAS base="0.001000" scale="0.002000"/>
+				<BIAS base="0.001000" scale="0.002000"/>
+			</SHADOW_BIAS>
+			<DIFFUSE x="1.000000" y="1.000000" z="1.000000"/>
+			<EULER x="-0.000000" y="0.000000" z="0.000000"/>
+			<NAME>月光</NAME>
+			<ID>Node_13CFE0E6-58D1-4E0A-8B2D-429E6092CD0D</ID>
+			<BOOT_LOAD>true</BOOT_LOAD>
+			<POSITION x="400000.000000" y="400000.000000" z="103527.617188"/>
+			<AXIS_X x="1.000000" y="0.000000" z="0.000000"/>
+			<AXIS_Y x="0.000000" y="1.000000" z="0.000000"/>
+			<AXIS_Z x="0.000000" y="0.000000" z="1.000000"/>
+			<MODEL_NAME/>
+			<SORT>10</SORT>
+			<VISIBLE>false</VISIBLE>
+			<VIDEO_FUSION>false</VIDEO_FUSION>
+			<MOVABILITY>0</MOVABILITY>
+			<LOAD_TYPE>1</LOAD_TYPE>
+			<SHADOW caster="false"/>
+		</NODE>
+		<NODE>
+			<TYPE>LIGHT</TYPE>
+			<ATTRIB type="spot" render="true" open="true" intensity="3000.000000" specularIntensity="1.000000" lightWidth="1.000000" shadowQuality="1" shadowIntensity="1.000000" shadowType="1" shadowFilter="2"/>
+			<SPOT cutoff="50.000000" outercutoff="80.000000"/>
+			<SHADOW_BIAS>
+				<BIAS base="0.001000" scale="0.002000"/>
+			</SHADOW_BIAS>
+			<DIFFUSE x="1.000000" y="0.961000" z="0.898000"/>
+			<EULER x="-0.000000" y="0.000000" z="0.000000"/>
+			<NAME>SpotLight</NAME>
+			<ID>Node_5A36756C-FD6A-4B36-8FC6-15EA0AB3E48C</ID>
+			<BOOT_LOAD>true</BOOT_LOAD>
+			<POSITION x="1.171757" y="0.137359" z="13.713758"/>
+			<AXIS_X x="1.000000" y="0.000000" z="0.000000"/>
+			<AXIS_Y x="0.000000" y="1.000000" z="0.000000"/>
+			<AXIS_Z x="0.000000" y="0.000000" z="1.000000"/>
+			<MODEL_NAME>resource/extra/light/spotlight.msh</MODEL_NAME>
+			<SORT>10</SORT>
+			<VISIBLE>true</VISIBLE>
+			<VIDEO_FUSION>false</VIDEO_FUSION>
+			<MOVABILITY>2</MOVABILITY>
+			<LOAD_TYPE>1</LOAD_TYPE>
+			<SHADOW caster="false"/>
+		</NODE>
+		<NODE>
+			<TYPE>PARTICLE</TYPE>
+			<NAME>Particle</NAME>
+			<ID>Particle_B9E9BF65-045A-4552-AF8E-D0AD4F231E25</ID>
+			<BOOT_LOAD>true</BOOT_LOAD>
+			<POSITION x="-0.539265" y="-5.390251" z="-6.990557"/>
+			<AXIS_X x="1.000000" y="0.000000" z="0.000000"/>
+			<AXIS_Y x="0.000000" y="1.000000" z="0.000000"/>
+			<AXIS_Z x="0.000000" y="0.000000" z="1.000000"/>
+			<MODEL_NAME/>
+			<MATERIAL_FILE>models/Material_DD343402-297B-4C74-B284-C9405B06E74C.script</MATERIAL_FILE>
+			<SORT>20</SORT>
+			<VISIBLE>true</VISIBLE>
+			<VIDEO_FUSION>false</VIDEO_FUSION>
+			<MOVABILITY>0</MOVABILITY>
+			<LOAD_TYPE>1</LOAD_TYPE>
+			<SHADOW caster="false"/>
+			<PARTICLE radius="12.000000" size="15.000000" maxlife="10.000000" minlife="1.000000" count="50" rotation="false">
+				<MAX_VELOCITY x="1.000000" y="1.000000" z="8.000000"/>
+				<MIN_VELOCITY x="-1.000000" y="-1.000000" z="5.000000"/>
+				<ACCELERATE x="0.000000" y="0.000000" z="0.000000"/>
+			</PARTICLE>
+		</NODE>
+		<NODE>
+			<TYPE>PARTICLE</TYPE>
+			<NAME>Particle</NAME>
+			<ID>Particle_617D578B-5264-4E5D-A121-086DB265E302</ID>
+			<BOOT_LOAD>true</BOOT_LOAD>
+			<POSITION x="23.899464" y="0.020760" z="-0.049710"/>
+			<AXIS_X x="0.694658" y="0.719340" z="0.000000"/>
+			<AXIS_Y x="-0.719340" y="0.694658" z="0.000000"/>
+			<AXIS_Z x="0.000000" y="0.000000" z="1.000000"/>
+			<MODEL_NAME/>
+			<MATERIAL_FILE>models/Material_B5146F4D-7B3C-4406-BED9-EC122EAAFC91.script</MATERIAL_FILE>
+			<SORT>20</SORT>
+			<VISIBLE>true</VISIBLE>
+			<VIDEO_FUSION>false</VIDEO_FUSION>
+			<MOVABILITY>0</MOVABILITY>
+			<LOAD_TYPE>1</LOAD_TYPE>
+			<SHADOW caster="false"/>
+			<PARTICLE radius="12.000000" size="15.000000" maxlife="2.000000" minlife="1.000000" count="10" rotation="false">
+				<MAX_VELOCITY x="1.000000" y="1.000000" z="2.000000"/>
+				<MIN_VELOCITY x="-1.000000" y="-1.000000" z="5.000000"/>
+				<ACCELERATE x="0.000000" y="0.000000" z="0.000000"/>
+			</PARTICLE>
+		</NODE>
+		<NODE>
+			<TYPE>PARTICLE</TYPE>
+			<NAME>Particle</NAME>
+			<ID>Particle_7608B7F6-0C30-4BD2-AFC2-C65E4B884947</ID>
+			<BOOT_LOAD>true</BOOT_LOAD>
+			<POSITION x="-29.385220" y="2.186486" z="-0.049710"/>
+			<AXIS_X x="1.000000" y="0.000000" z="0.000000"/>
+			<AXIS_Y x="0.000000" y="1.000000" z="0.000000"/>
+			<AXIS_Z x="0.000000" y="0.000000" z="1.000000"/>
+			<MODEL_NAME/>
+			<MATERIAL_FILE>models/Material_D2F04FDB-6364-49C8-B402-050765CFAC97.script</MATERIAL_FILE>
+			<SORT>20</SORT>
+			<VISIBLE>true</VISIBLE>
+			<VIDEO_FUSION>false</VIDEO_FUSION>
+			<MOVABILITY>0</MOVABILITY>
+			<LOAD_TYPE>1</LOAD_TYPE>
+			<SHADOW caster="false"/>
+			<PARTICLE radius="12.000000" size="15.000000" maxlife="2.000000" minlife="1.000000" count="10" rotation="false">
+				<MAX_VELOCITY x="1.000000" y="1.000000" z="2.000000"/>
+				<MIN_VELOCITY x="-1.000000" y="-1.000000" z="5.000000"/>
+				<ACCELERATE x="0.000000" y="0.000000" z="0.000000"/>
+			</PARTICLE>
+		</NODE>
+	</ROOT>
+</SCENE>
+
+

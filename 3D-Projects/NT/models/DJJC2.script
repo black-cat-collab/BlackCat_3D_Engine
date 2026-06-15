@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<SCRIPT>
+	<MATERIAL name="Tex_DJJC2_0">
+		<BATCHBIND>false</BATCHBIND>
+		<MATERIALPARAMID>paramid_8e2b08f4-6774-4c43-8a24-5ecb9fb7b653</MATERIALPARAMID>
+		<EFFECTSTAGEID>stageid_69777225-aacb-4b12-b16d-512af0d63ac1</EFFECTSTAGEID>
+		<CULL>back</CULL>
+		<BLENDMODE mode="none">
+			<BLEND func="blend" AlphaThreshold="0.200000"/>
+		</BLENDMODE>
+		<ALPHAFUNC mode="none"/>
+		<TEXANIMATION enable="false" type="0" speed="0.500000"/>
+		<PLANEREFLECT enable="false" rate="0.500000" blur="false"/>
+		<LIGHTINGMODE Mode="PBR">
+			<PBR AO="1.000000" Metallic="0.000000" Roughness="0.700000" Specular="1.000000" Reflect="0.500000"/>
+		</LIGHTINGMODE>
+		<GLOW>
+			<ENABLE>false</ENABLE>
+			<SCALE>0.000000</SCALE>
+			<COLOR_SCALE>5.000000</COLOR_SCALE>
+			<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000" enable="false"/>
+			<FLASH enable="false" speed="0.000000"/>
+		</GLOW>
+		<VIEWSPECULAR enable="false" Intensity="0.500000" BaseIntensity="1.000000"/>
+		<DEPTHFUNC func="lequal"/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<INSTANCED>false</INSTANCED>
+		<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000"/>
+		<MSAA>false</MSAA>
+		<DISTANCECLIP enable="false" mode="0" near="0.000000" far="340282346638528859811704183484516925440.000000"/>
+		<LIGHTSPREAD>
+			<ENABLE>false</ENABLE>
+			<SPEED>100.000000</SPEED>
+			<WIDTH>50.000000</WIDTH>
+			<COLOR r="0.800000" g="0.800000" b="0.800000"/>
+			<CENTER x="0.000000" y="0.000000"/>
+			<MAX>5000.000000</MAX>
+			<MIN>0.100000</MIN>
+		</LIGHTSPREAD>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLOR_TYPE>0</COLOR_TYPE>
+			<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+			<UV_SCALE x="1.000000" y="1.000000"/>
+			<COLOR_SCALE>1.000000</COLOR_SCALE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" magfilter="LINEAR" minfilter="LINEAR" mipmap="true" anisotropy="false" fps="1.000000">textures/DJJC20004.jpg</MAP>
+		</DIFFUSE_MAP>
+	</MATERIAL>
+	<MATERIAL name="Tex_DJJC2_1">
+		<BATCHBIND>false</BATCHBIND>
+		<MATERIALPARAMID>paramid_8a3b7cd0-54b4-4fb6-9aa1-cbc9631e6a18</MATERIALPARAMID>
+		<EFFECTSTAGEID>stageid_e056c93c-66c6-4c70-bfbb-72ea3ebe49a4</EFFECTSTAGEID>
+		<CULL>back</CULL>
+		<BLENDMODE mode="none">
+			<BLEND func="blend" AlphaThreshold="0.200000"/>
+		</BLENDMODE>
+		<ALPHAFUNC mode="none"/>
+		<TEXANIMATION enable="false" type="0" speed="0.500000"/>
+		<PLANEREFLECT enable="false" rate="0.500000" blur="false"/>
+		<LIGHTINGMODE Mode="PBR">
+			<PBR AO="1.000000" Metallic="0.000000" Roughness="0.700000" Specular="1.000000" Reflect="0.500000"/>
+		</LIGHTINGMODE>
+		<GLOW>
+			<ENABLE>false</ENABLE>
+			<SCALE>0.000000</SCALE>
+			<COLOR_SCALE>5.000000</COLOR_SCALE>
+			<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000" enable="false"/>
+			<FLASH enable="false" speed="0.000000"/>
+		</GLOW>
+		<VIEWSPECULAR enable="false" Intensity="0.500000" BaseIntensity="1.000000"/>
+		<DEPTHFUNC func="lequal"/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<INSTANCED>false</INSTANCED>
+		<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000"/>
+		<MSAA>false</MSAA>
+		<DISTANCECLIP enable="false" mode="0" near="0.000000" far="340282346638528859811704183484516925440.000000"/>
+		<LIGHTSPREAD>
+			<ENABLE>false</ENABLE>
+			<SPEED>100.000000</SPEED>
+			<WIDTH>50.000000</WIDTH>
+			<COLOR r="0.800000" g="0.800000" b="0.800000"/>
+			<CENTER x="0.000000" y="0.000000"/>
+			<MAX>5000.000000</MAX>
+			<MIN>0.100000</MIN>
+		</LIGHTSPREAD>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLOR_TYPE>0</COLOR_TYPE>
+			<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+			<UV_SCALE x="1.000000" y="1.000000"/>
+			<COLOR_SCALE>1.000000</COLOR_SCALE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" magfilter="LINEAR" minfilter="LINEAR" mipmap="true" anisotropy="false" fps="1.000000">textures/DJJC20005.jpg</MAP>
+		</DIFFUSE_MAP>
+	</MATERIAL>
+	<MATERIAL name="Tex_DJJC2_2">
+		<BATCHBIND>false</BATCHBIND>
+		<MATERIALPARAMID>paramid_e0cd2afb-cd5e-4201-a286-260499a3bb88</MATERIALPARAMID>
+		<EFFECTSTAGEID>stageid_ea17178c-a21c-4d54-a2d0-448e0394ca56</EFFECTSTAGEID>
+		<CULL>back</CULL>
+		<BLENDMODE mode="none">
+			<BLEND func="blend" AlphaThreshold="0.200000"/>
+		</BLENDMODE>
+		<ALPHAFUNC mode="none"/>
+		<TEXANIMATION enable="false" type="0" speed="0.500000"/>
+		<PLANEREFLECT enable="false" rate="0.500000" blur="false"/>
+		<LIGHTINGMODE Mode="PBR">
+			<PBR AO="1.000000" Metallic="0.000000" Roughness="0.700000" Specular="1.000000" Reflect="0.500000"/>
+		</LIGHTINGMODE>
+		<GLOW>
+			<ENABLE>false</ENABLE>
+			<SCALE>0.000000</SCALE>
+			<COLOR_SCALE>5.000000</COLOR_SCALE>
+			<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000" enable="false"/>
+			<FLASH enable="false" speed="0.000000"/>
+		</GLOW>
+		<VIEWSPECULAR enable="false" Intensity="0.500000" BaseIntensity="1.000000"/>
+		<DEPTHFUNC func="lequal"/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<INSTANCED>false</INSTANCED>
+		<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000"/>
+		<MSAA>false</MSAA>
+		<DISTANCECLIP enable="false" mode="0" near="0.000000" far="340282346638528859811704183484516925440.000000"/>
+		<LIGHTSPREAD>
+			<ENABLE>false</ENABLE>
+			<SPEED>100.000000</SPEED>
+			<WIDTH>50.000000</WIDTH>
+			<COLOR r="0.800000" g="0.800000" b="0.800000"/>
+			<CENTER x="0.000000" y="0.000000"/>
+			<MAX>5000.000000</MAX>
+			<MIN>0.100000</MIN>
+		</LIGHTSPREAD>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLOR_TYPE>0</COLOR_TYPE>
+			<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+			<UV_SCALE x="1.000000" y="1.000000"/>
+			<COLOR_SCALE>1.000000</COLOR_SCALE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" magfilter="LINEAR" minfilter="LINEAR" mipmap="true" anisotropy="false" fps="1.000000">textures/DJJC20002.jpg</MAP>
+		</DIFFUSE_MAP>
+	</MATERIAL>
+	<MATERIAL name="Tex_DJJC2_3">
+		<BATCHBIND>false</BATCHBIND>
+		<MATERIALPARAMID>paramid_15ca1665-b31c-4a9b-ac97-1a81595179ab</MATERIALPARAMID>
+		<EFFECTSTAGEID>stageid_4e1d1091-05db-4649-9c50-e502be89354a</EFFECTSTAGEID>
+		<CULL>back</CULL>
+		<BLENDMODE mode="none">
+			<BLEND func="blend" AlphaThreshold="0.200000"/>
+		</BLENDMODE>
+		<ALPHAFUNC mode="none"/>
+		<TEXANIMATION enable="false" type="0" speed="0.500000"/>
+		<PLANEREFLECT enable="false" rate="0.500000" blur="false"/>
+		<LIGHTINGMODE Mode="PBR">
+			<PBR AO="1.000000" Metallic="0.000000" Roughness="0.700000" Specular="1.000000" Reflect="0.500000"/>
+		</LIGHTINGMODE>
+		<GLOW>
+			<ENABLE>false</ENABLE>
+			<SCALE>0.000000</SCALE>
+			<COLOR_SCALE>5.000000</COLOR_SCALE>
+			<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000" enable="false"/>
+			<FLASH enable="false" speed="0.000000"/>
+		</GLOW>
+		<VIEWSPECULAR enable="false" Intensity="0.500000" BaseIntensity="1.000000"/>
+		<DEPTHFUNC func="lequal"/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<INSTANCED>false</INSTANCED>
+		<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000"/>
+		<MSAA>false</MSAA>
+		<DISTANCECLIP enable="false" mode="0" near="0.000000" far="340282346638528859811704183484516925440.000000"/>
+		<LIGHTSPREAD>
+			<ENABLE>false</ENABLE>
+			<SPEED>100.000000</SPEED>
+			<WIDTH>50.000000</WIDTH>
+			<COLOR r="0.800000" g="0.800000" b="0.800000"/>
+			<CENTER x="0.000000" y="0.000000"/>
+			<MAX>5000.000000</MAX>
+			<MIN>0.100000</MIN>
+		</LIGHTSPREAD>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLOR_TYPE>0</COLOR_TYPE>
+			<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+			<UV_SCALE x="1.000000" y="1.000000"/>
+			<COLOR_SCALE>1.000000</COLOR_SCALE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" magfilter="LINEAR" minfilter="LINEAR" mipmap="true" anisotropy="false" fps="1.000000">textures/DJJC20007.jpg</MAP>
+		</DIFFUSE_MAP>
+	</MATERIAL>
+	<MATERIAL name="Tex_DJJC2_4">
+		<BATCHBIND>false</BATCHBIND>
+		<MATERIALPARAMID>paramid_16286446-877c-4814-bd31-11a523fde28c</MATERIALPARAMID>
+		<EFFECTSTAGEID>stageid_5e4826de-6c2d-43dc-ad40-10c3ca62bcb4</EFFECTSTAGEID>
+		<CULL>back</CULL>
+		<BLENDMODE mode="none">
+			<BLEND func="blend" AlphaThreshold="0.200000"/>
+		</BLENDMODE>
+		<ALPHAFUNC mode="none"/>
+		<TEXANIMATION enable="false" type="0" speed="0.500000"/>
+		<PLANEREFLECT enable="false" rate="0.500000" blur="false"/>
+		<LIGHTINGMODE Mode="PBR">
+			<PBR AO="1.000000" Metallic="0.000000" Roughness="0.700000" Specular="1.000000" Reflect="0.500000"/>
+		</LIGHTINGMODE>
+		<GLOW>
+			<ENABLE>false</ENABLE>
+			<SCALE>0.000000</SCALE>
+			<COLOR_SCALE>5.000000</COLOR_SCALE>
+			<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000" enable="false"/>
+			<FLASH enable="false" speed="0.000000"/>
+		</GLOW>
+		<VIEWSPECULAR enable="false" Intensity="0.500000" BaseIntensity="1.000000"/>
+		<DEPTHFUNC func="lequal"/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<INSTANCED>false</INSTANCED>
+		<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000"/>
+		<MSAA>false</MSAA>
+		<DISTANCECLIP enable="false" mode="0" near="0.000000" far="340282346638528859811704183484516925440.000000"/>
+		<LIGHTSPREAD>
+			<ENABLE>false</ENABLE>
+			<SPEED>100.000000</SPEED>
+			<WIDTH>50.000000</WIDTH>
+			<COLOR r="0.800000" g="0.800000" b="0.800000"/>
+			<CENTER x="0.000000" y="0.000000"/>
+			<MAX>5000.000000</MAX>
+			<MIN>0.100000</MIN>
+		</LIGHTSPREAD>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLOR_TYPE>0</COLOR_TYPE>
+			<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+			<UV_SCALE x="1.000000" y="1.000000"/>
+			<COLOR_SCALE>1.000000</COLOR_SCALE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" magfilter="LINEAR" minfilter="LINEAR" mipmap="true" anisotropy="false" fps="1.000000">textures/DJJC20006.jpg</MAP>
+		</DIFFUSE_MAP>
+	</MATERIAL>
+</SCRIPT>
+

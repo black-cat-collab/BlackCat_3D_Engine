@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<SCENE>
+	<ROOT>
+		<NODE>
+			<TYPE>CAMERA</TYPE>
+			<CAMERA name="Main" id="Node_7259C925-B79A-4D8E-9997-05D8518544A9" near="0.100000" far="500000.000000" fov="90.000000">
+				<POSITION x="-87.386316" y="18.725101" z="49.932504"/>
+				<EULER x="20.489502" y="213.909302" z="0.000000"/>
+			</CAMERA>
+			<VIEWPOINT name="CS">
+				<POSITION x="-87.386316" y="18.725101" z="49.932504"/>
+				<EULER x="20.494995" y="213.909302" z="0.000000"/>
+				<FOV fov="90.000000"/>
+			</VIEWPOINT>
+		</NODE>
+		<NODE>
+			<TYPE>GROUP</TYPE>
+			<CULL_GROUP>false</CULL_GROUP>
+			<NAME>QINGXIESHEYING</NAME>
+			<ID>QINGXIESHEYING</ID>
+			<BOOT_LOAD>true</BOOT_LOAD>
+			<POSITION x="-19784.031250" y="12186.766602" z="3430.916016"/>
+			<AXIS_X x="1.000000" y="0.000000" z="0.000000"/>
+			<AXIS_Y x="0.000000" y="1.000000" z="0.000000"/>
+			<AXIS_Z x="0.000000" y="0.000000" z="1.000000"/>
+			<SUB_SCENE>PagedNode.tw4</SUB_SCENE>
+			<SUB_SCENE_PATH/>
+		</NODE>
+		<!-- <NODE> -->
+			<!-- <TYPE>GEO</TYPE> -->
+			<!-- <NAME>DJJC2</NAME> -->
+			<!-- <ID>DJJC2</ID> -->
+			<!-- <BOOT_LOAD>true</BOOT_LOAD> -->
+			<!-- <POSITION x="-261.395203" y="-70.313293" z="16.345459"/> -->
+			<!-- <AXIS_X x="1.000000" y="0.000000" z="0.000000"/> -->
+			<!-- <AXIS_Y x="0.000000" y="1.000000" z="0.000000"/> -->
+			<!-- <AXIS_Z x="0.000000" y="0.000000" z="1.000000"/> -->
+			<!-- <MODEL_NAME>models/DJJC2.msh</MODEL_NAME> -->
+			<!-- <SORT>10</SORT> -->
+			<!-- <VISIBLE>true</VISIBLE> -->
+			<!-- <VIDEO_FUSION>false</VIDEO_FUSION> -->
+			<!-- <MOVABILITY>0</MOVABILITY> -->
+			<!-- <LOAD_TYPE>1</LOAD_TYPE> -->
+			<!-- <SHADOW caster="true"/> -->
+		<!-- </NODE> -->
+		<NODE>
+			<TYPE>SHELL_GROUP</TYPE>
+			<NAME>ShellRootNode_0A04BA79-E2BA-4FBD-952D-79E08E236374</NAME>
+			<ID>ShellRootNode_0A04BA79-E2BA-4FBD-952D-79E08E236374</ID>
+			<BOOT_LOAD>true</BOOT_LOAD>
+			<POSITION x="-202.556122" y="-12.209756" z="41.491047"/>
+			<AXIS_X x="1.000000" y="0.000000" z="0.000000"/>
+			<AXIS_Y x="0.000000" y="1.000000" z="0.000000"/>
+			<AXIS_Z x="0.000000" y="0.000000" z="1.000000"/>
+			<MODEL_NAME/>
+			<SORT>10</SORT>
+			<VISIBLE>true</VISIBLE>
+			<VIDEO_FUSION>false</VIDEO_FUSION>
+			<MOVABILITY>0</MOVABILITY>
+			<LOAD_TYPE>1</LOAD_TYPE>
+			<SHADOW caster="false"/>
+			<SUB_SCENE>ShellRootNode_0A04BA79-E2BA-4FBD-952D-79E08E236374.tw4</SUB_SCENE>
+			<MSH_NAME>ShellRootNode_0A04BA79-E2BA-4FBD-952D-79E08E236374.msh</MSH_NAME>
+			<TEXTURE_NAME>E7DBD8D0-C011-4E57-86F2-7B96D64AC146.jpg</TEXTURE_NAME>
+			<SUB_SCENE_PATH>Shell</SUB_SCENE_PATH>
+			<OLD_VERSION>false</OLD_VERSION>
+		</NODE>
+		<NODE>
+			<TYPE>LIGHT</TYPE>
+			<ATTRIB type="sun" render="false" open="true" intensity="10.000000" specularIntensity="1.000000" lightWidth="1.000000" shadowQuality="3" shadowIntensity="1.000000" shadowType="1" shadowFilter="3"/>
+			<TEMPERATURE base="25.000000" scale="10.000000" enable="true"/>
+			<SHADOW_BIAS>
+				<BIAS base="0.001000" scale="0.002000"/>
+				<BIAS base="0.001000" scale="0.002000"/>
+				<BIAS base="0.001000" scale="0.002000"/>
+				<BIAS base="0.001000" scale="0.002000"/>
+				<BIAS base="0.001000" scale="0.002000"/>
+			</SHADOW_BIAS>
+			<DIFFUSE x="1.000000" y="1.000000" z="1.000000"/>
+			<EULER x="0.000000" y="0.000000" z="0.000000"/>
+			<NAME>太阳光</NAME>
+			<ID>Node_9E538A8B-F804-4E8F-B094-0D8376B1B4CB</ID>
+			<BOOT_LOAD>true</BOOT_LOAD>
+			<POSITION x="-87.403801" y="-282824.000000" z="282892.656250"/>
+			<AXIS_X x="1.000000" y="0.000000" z="0.000000"/>
+			<AXIS_Y x="0.000000" y="1.000000" z="0.000000"/>
+			<AXIS_Z x="0.000000" y="0.000000" z="1.000000"/>
+			<MODEL_NAME/>
+			<SORT>10</SORT>
+			<VISIBLE>true</VISIBLE>
+			<VIDEO_FUSION>false</VIDEO_FUSION>
+			<MOVABILITY>0</MOVABILITY>
+			<LOAD_TYPE>1</LOAD_TYPE>
+			<SHADOW caster="false"/>
+		</NODE>
+		<NODE>
+			<TYPE>LIGHT</TYPE>
+			<ATTRIB type="moon" render="false" open="true" intensity="3.000000" specularIntensity="1.000000" lightWidth="1.000000" shadowQuality="3" shadowIntensity="1.000000" shadowType="1" shadowFilter="3"/>
+			<SHADOW_BIAS>
+				<BIAS base="0.001000" scale="0.002000"/>
+				<BIAS base="0.001000" scale="0.002000"/>
+				<BIAS base="0.001000" scale="0.002000"/>
+				<BIAS base="0.001000" scale="0.002000"/>
+				<BIAS base="0.001000" scale="0.002000"/>
+			</SHADOW_BIAS>
+			<DIFFUSE x="1.000000" y="1.000000" z="1.000000"/>
+			<EULER x="0.000000" y="0.000000" z="0.000000"/>
+			<NAME>月光</NAME>
+			<ID>Node_EE715889-2F5C-4603-9DB9-62290E9DFE19</ID>
+			<BOOT_LOAD>true</BOOT_LOAD>
+			<POSITION x="4000.000000" y="4000.000000" z="4000.000000"/>
+			<AXIS_X x="1.000000" y="0.000000" z="0.000000"/>
+			<AXIS_Y x="0.000000" y="1.000000" z="0.000000"/>
+			<AXIS_Z x="0.000000" y="0.000000" z="1.000000"/>
+			<MODEL_NAME/>
+			<SORT>10</SORT>
+			<VISIBLE>false</VISIBLE>
+			<VIDEO_FUSION>false</VIDEO_FUSION>
+			<MOVABILITY>0</MOVABILITY>
+			<LOAD_TYPE>1</LOAD_TYPE>
+			<SHADOW caster="false"/>
+		</NODE>
+		<NODE>
+			<TYPE/>
+			<CAMERA name="" id="Node_9AAB40C8-3B7F-4DF8-9105-47CA38F11CAE" near="0.100000" far="5000.000000" fov="90.000000">
+				<POSITION x="0.000000" y="0.000000" z="1.000000"/>
+				<EULER x="90.000000" y="90.000000" z="0.000000"/>
+			</CAMERA>
+		</NODE>
+	</ROOT>
+</SCENE>
+
+

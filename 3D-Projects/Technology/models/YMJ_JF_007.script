@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<SCRIPT>
+	<MATERIAL name="Tex_YMJ_JF_007">
+		<BATCHBIND>false</BATCHBIND>
+		<MATERIALPARAMID>paramid_c9d68638-9258-4c2f-84ae-fddcc385527f</MATERIALPARAMID>
+		<EFFECTSTAGEID>stageid_05249cf3-db3a-41fe-b8ed-c10108011638</EFFECTSTAGEID>
+		<CULL>back</CULL>
+		<BLENDMODE mode="blend">
+			<BLEND func="blend" AlphaThreshold="0.000000"/>
+		</BLENDMODE>
+		<ALPHAFUNC mode="none"/>
+		<TEXANIMATION enable="false" type="0" speed="0.500000"/>
+		<PLANEREFLECT enable="false" rate="0.500000" blur="false"/>
+		<LIGHTINGMODE Mode="NONE">
+			<PBR AO="1.000000" Metallic="0.000000" Roughness="0.700000" Specular="1.000000" Reflect="0.500000"/>
+		</LIGHTINGMODE>
+		<GLOW>
+			<ENABLE>false</ENABLE>
+			<SCALE>0.000000</SCALE>
+			<COLOR_SCALE>3.000000</COLOR_SCALE>
+			<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000" enable="false"/>
+			<FLASH enable="false" speed="0.000000"/>
+		</GLOW>
+		<VIEWSPECULAR enable="false" Intensity="0.500000" BaseIntensity="1.000000"/>
+		<DEPTHFUNC func="lequal"/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<INSTANCED>false</INSTANCED>
+		<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000"/>
+		<MSAA>false</MSAA>
+		<DISTANCECLIP enable="false" mode="0" near="0.000000" far="340282346638528859811704183484516925440.000000"/>
+		<LIGHTSPREAD>
+			<ENABLE>false</ENABLE>
+			<SPEED>100.000000</SPEED>
+			<WIDTH>50.000000</WIDTH>
+			<COLOR r="0.800000" g="0.800000" b="0.800000"/>
+			<CENTER x="0.000000" y="0.000000"/>
+			<MAX>5000.000000</MAX>
+			<MIN>0.100000</MIN>
+		</LIGHTSPREAD>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLOR_TYPE>0</COLOR_TYPE>
+			<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+			<UV_SCALE x="1.000000" y="1.000000"/>
+			<COLOR_SCALE>1.000000</COLOR_SCALE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="animmap" wrap="repeat" magfilter="LINEAR" minfilter="LINEAR" mipmap="true" anisotropy="false" fps="18.000000">
+				<TEX>textures/kuosan2/kuosan2_00000.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00001.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00002.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00003.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00004.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00005.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00006.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00007.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00008.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00009.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00010.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00011.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00012.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00013.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00014.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00015.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00016.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00017.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00018.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00019.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00020.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00021.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00022.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00023.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00024.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00025.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00026.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00027.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00028.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00029.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00030.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00031.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00032.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00033.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00034.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00035.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00036.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00037.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00038.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00039.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00040.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00041.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00042.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00043.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00044.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00045.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00046.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00047.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00048.png</TEX>
+				<TEX>textures/kuosan2/kuosan2_00049.png</TEX>
+			</MAP>
+		</DIFFUSE_MAP>
+		<EMISSIVE_MAP>
+			<ENABLE>false</ENABLE>
+			<COLOR_TYPE>0</COLOR_TYPE>
+			<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+			<UV_SCALE x="1.000000" y="1.000000"/>
+			<COLOR_SCALE>10.000000</COLOR_SCALE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" magfilter="LINEAR" minfilter="LINEAR" mipmap="true" anisotropy="false" fps="1.000000">textures/kuosan2_00023.png</MAP>
+		</EMISSIVE_MAP>
+	</MATERIAL>
+</SCRIPT>
+

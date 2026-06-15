@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<SCRIPT>
+	<MATERIAL name="Material_D2F04FDB-6364-49C8-B402-050765CFAC97">
+		<BATCHBIND>false</BATCHBIND>
+		<MATERIALPARAMID>paramid_aa2faca2-d2c2-4b67-9783-4413fbd3fd71</MATERIALPARAMID>
+		<EFFECTSTAGEID>stageid_07a00dc1-b8ae-4229-be91-477e71a1cc10</EFFECTSTAGEID>
+		<CULL>back</CULL>
+		<BLENDMODE mode="blend">
+			<BLEND func="blend" AlphaThreshold="0.000000"/>
+		</BLENDMODE>
+		<ALPHAFUNC mode="none"/>
+		<TEXANIMATION enable="false" type="0" speed="0.500000"/>
+		<PLANEREFLECT enable="false" rate="0.500000" blur="false"/>
+		<LIGHTINGMODE Mode="NONE">
+			<PBR AO="1.000000" Metallic="0.000000" Roughness="0.800000" Specular="1.000000" Reflect="0.500000"/>
+		</LIGHTINGMODE>
+		<GLOW>
+			<ENABLE>false</ENABLE>
+			<SCALE>0.000000</SCALE>
+			<COLOR_SCALE>1.000000</COLOR_SCALE>
+			<COLOR r="0.000000" g="0.000000" b="0.000000" a="1.000000" enable="false"/>
+			<FLASH enable="false" speed="1.000000"/>
+		</GLOW>
+		<VIEWSPECULAR enable="false" Intensity="0.500000" BaseIntensity="1.000000"/>
+		<DEPTHFUNC func="lequal"/>
+		<DEPTHWRITE>true</DEPTHWRITE>
+		<INSTANCED>false</INSTANCED>
+		<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+		<MSAA>false</MSAA>
+		<DISTANCECLIP enable="false" mode="0" near="0.000000" far="340282346638528859811704183484516925440.000000"/>
+		<LIGHTSPREAD>
+			<ENABLE>false</ENABLE>
+			<SPEED>100.000000</SPEED>
+			<WIDTH>50.000000</WIDTH>
+			<COLOR r="0.800000" g="0.800000" b="0.800000"/>
+			<CENTER x="0.000000" y="0.000000"/>
+			<MAX>5000.000000</MAX>
+			<MIN>0.100000</MIN>
+		</LIGHTSPREAD>
+		<DIFFUSE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLOR_TYPE>0</COLOR_TYPE>
+			<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+			<UV_SCALE x="1.000000" y="1.000000"/>
+			<COLOR_SCALE>1.000000</COLOR_SCALE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" magfilter="LINEAR" minfilter="LINEAR" mipmap="true" anisotropy="false" fps="1.000000">textures/kuosan2_00023.png</MAP>
+		</DIFFUSE_MAP>
+		<EMISSIVE_MAP>
+			<ENABLE>true</ENABLE>
+			<COLOR_TYPE>0</COLOR_TYPE>
+			<COLOR r="1.000000" g="1.000000" b="1.000000" a="1.000000"/>
+			<UV_SCALE x="1.000000" y="1.000000"/>
+			<COLOR_SCALE>5.000000</COLOR_SCALE>
+			<CHANNEL>0</CHANNEL>
+			<MAP type="2d" wrap="repeat" magfilter="LINEAR" minfilter="LINEAR" mipmap="true" anisotropy="false" fps="1.000000">textures/kuosan2_00023.png</MAP>
+		</EMISSIVE_MAP>
+	</MATERIAL>
+</SCRIPT>
+
