@@ -1,0 +1,64 @@
+{
+	"description" : "静态上图",
+	"key" : "LocusLineParam",
+	"nodeType" : 18,
+	"nodeTypeName" : "NODE_LOCUSLINE",
+	"param" : 
+	[
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 1,
+			"key" : "fLineWidth",
+			"sort" : 1,
+			"text" : "线宽",
+			"value" : "1"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 2,
+			"key" : "nLineStyle",
+			"sort" : 1,
+			"text" : "线的风格",
+			"value" : "1"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 2,
+			"key" : "nDottedFactor",
+			"sort" : 1,
+			"text" : "虚线比率",
+			"value" : "1"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 4,
+			"key" : "usDottedStyle",
+			"sort" : 1,
+			"text" : "虚线风格",
+			"value" : "1"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 14,
+			"key" : "vLineColor",
+			"sort" : 1,
+			"text" : "线的颜色",
+			"value" : "255.000000,255.000000,255.000000,1.000000"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 7,
+			"key" : "bDepthTest",
+			"sort" : 1,
+			"text" : "是否开启深度测试",
+			"value" : true
+		}
+	],
+	"sort" : 200
+}

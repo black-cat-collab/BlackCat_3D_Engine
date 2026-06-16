@@ -1,0 +1,237 @@
+{
+	"description" : "静态上图",
+	"key" : "PolygonParam",
+	"nodeType" : 12,
+	"nodeTypeName" : "NODE_POLYGON",
+	"param" : 
+	[
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 4,
+			"key" : "strFlagName",
+			"sort" : 1,
+			"text" : "业务标识名称",
+			"value" : ""
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 2,
+			"key" : "nVersion",
+			"sort" : 1,
+			"text" : "版本",
+			"value" : "-1"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 0,
+			"key" : "strImage",
+			"sort" : 1,
+			"text" : "底面图片",
+			"value" : ""
+		},
+		{
+			"children" : 
+			[
+				{
+					"children" : [],
+					"description" : "",
+					"eType" : 0,
+					"key" : "strHoverBaseImage",
+					"sort" : 1,
+					"text" : "悬停底面背景",
+					"value" : ""
+				},
+				{
+					"children" : [],
+					"description" : "",
+					"eType" : 0,
+					"key" : "strHoverFenceImage",
+					"sort" : 1,
+					"text" : "悬停围栏背景",
+					"value" : ""
+				},
+				{
+					"children" : [],
+					"description" : "",
+					"eType" : 14,
+					"key" : "vHoverColor",
+					"sort" : 1,
+					"text" : "悬停底面颜色",
+					"value" : "255.000000,255.000000,255.000000,1.000000"
+				},
+				{
+					"children" : [],
+					"description" : "",
+					"eType" : 14,
+					"key" : "vHoverFenceColor",
+					"sort" : 1,
+					"text" : "悬停围栏颜色",
+					"value" : "255.000000,255.000000,255.000000,1.000000"
+				},
+				{
+					"children" : [],
+					"description" : "",
+					"eType" : 14,
+					"key" : "vHoverLineColor",
+					"sort" : 1,
+					"text" : "悬停边线颜色",
+					"value" : "255.000000,255.000000,255.000000,1.000000"
+				}
+			],
+			"description" : "",
+			"eType" : 7,
+			"key" : "bHoverEnable",
+			"sort" : 1,
+			"text" : "是否可悬浮",
+			"value" : false
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 14,
+			"key" : "vColor",
+			"sort" : 1,
+			"text" : "底面颜色(有图片优先使用图片)",
+			"value" : "255.000000,255.000000,255.000000,1.000000"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 7,
+			"key" : "bClickEnable",
+			"sort" : 1,
+			"text" : "是否可点击",
+			"value" : false
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 7,
+			"key" : "bBaseGlowEnable",
+			"sort" : 1,
+			"text" : "底面是否有辉光",
+			"value" : false
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 1,
+			"key" : "fBaseGlowIntensity",
+			"sort" : 1,
+			"text" : "底面辉光强度",
+			"value" : "1"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 7,
+			"key" : "bWithLine",
+			"sort" : 1,
+			"text" : "是否带边框线",
+			"value" : false
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 1,
+			"key" : "fLineWidth",
+			"sort" : 1,
+			"text" : "边线宽度",
+			"value" : "1"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 14,
+			"key" : "vLineColor",
+			"sort" : 1,
+			"text" : "边线颜色",
+			"value" : "255.000000,255.000000,255.000000,1.000000"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 7,
+			"key" : "bDepthTest",
+			"sort" : 1,
+			"text" : "是否开启深度测试",
+			"value" : true
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 7,
+			"key" : "bWithFence",
+			"sort" : 1,
+			"text" : "是否带围栏",
+			"value" : false
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 1,
+			"key" : "fFenceHeight",
+			"sort" : 1,
+			"text" : "围栏高度",
+			"value" : "1"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 0,
+			"key" : "strFenceImage",
+			"sort" : 1,
+			"text" : "围栏贴图",
+			"value" : ""
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 14,
+			"key" : "vFenceColor",
+			"sort" : 1,
+			"text" : "围栏颜色(有图片优先使用图片)",
+			"value" : "255.000000,255.000000,255.000000,1.000000"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 7,
+			"key" : "bFenceGlowEnable",
+			"sort" : 1,
+			"text" : "围栏是否有辉光",
+			"value" : false
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 1,
+			"key" : "fFenceGlowIntensity",
+			"sort" : 1,
+			"text" : "围栏辉光强度",
+			"value" : "1"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 1,
+			"key" : "fUVRepeat",
+			"sort" : 1,
+			"text" : "图片重复范围",
+			"value" : "-1"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 7,
+			"key" : "bCircle",
+			"sort" : 1,
+			"text" : "是否圆形",
+			"value" : false
+		}
+	],
+	"sort" : 200
+}

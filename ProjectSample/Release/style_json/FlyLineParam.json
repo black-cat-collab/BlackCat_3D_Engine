@@ -1,0 +1,82 @@
+{
+	"description" : "静态上图",
+	"key" : "FlyLineParam",
+	"nodeType" : 13,
+	"nodeTypeName" : "NODE_FLYLINE",
+	"param" : 
+	[
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 0,
+			"key" : "strMaterial",
+			"sort" : 1,
+			"text" : "飞线材质",
+			"value" : ""
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 2,
+			"key" : "nTubularSegment",
+			"sort" : 1,
+			"text" : "沿长度方向分段数",
+			"value" : "2"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 2,
+			"key" : "nRadialSegment",
+			"sort" : 1,
+			"text" : "沿圆柱方向分段数",
+			"value" : "4"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 1,
+			"key" : "fRadius",
+			"sort" : 1,
+			"text" : "圆柱半径",
+			"value" : "1"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 7,
+			"key" : "bAnimation",
+			"sort" : 1,
+			"text" : "贴图是否流动",
+			"value" : true
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 1,
+			"key" : "fAnimationSpeed",
+			"sort" : 1,
+			"text" : "贴图流动速度",
+			"value" : "0.100000"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 7,
+			"key" : "bGlow",
+			"sort" : 1,
+			"text" : "是否开启辉光",
+			"value" : false
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 1,
+			"key" : "fGlowIntensity",
+			"sort" : 4,
+			"text" : "辉光强度",
+			"value" : "5"
+		}
+	],
+	"sort" : 200
+}

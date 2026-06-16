@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginDialog</class>
+ <widget class="QDialog" name="LoginDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="backgroundFrame">
+     <property name="styleSheet">
+      <string notr="true">QFrame#backgroundFrame{border-image: url(:/resource/image/login_bg.png);}
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="loginButton">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>680</y>
+        <width>210</width>
+        <height>52</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/resource/image/btn_login_normal.png);}
+QPushButton:hover{border-image: url(:/resource/image/btn_login_selected.png);}
+QPushButton:pressed{border-image: url(:/resource/image/btn_login_selected.png);}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>40</y>
+        <width>601</width>
+        <height>85</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/resource/image/Logo.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="accountEdit">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>429</y>
+        <width>499</width>
+        <height>73</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Source Han Sans CN</family>
+        <pointsize>-1</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{border-image: url(:/resource/image/login_input_normal.png);}
+
+
+QLineEdit{
+font-size:24px;
+font-family:Source Han Sans CN;
+font-weight:400;
+color:rgba(255,255,255,1);}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="cursorPosition">
+       <number>0</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="placeholderText">
+       <string/>
+      </property>
+      <property name="cursorMoveStyle">
+       <enum>Qt::VisualMoveStyle</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="passwordEdit">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>561</y>
+        <width>499</width>
+        <height>73</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Source Han Sans CN</family>
+        <pointsize>-1</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{color:#8abcc3;border:1px solid #3e9eb3;background:transparent;}
+QLineEdit:hover{border:1px solid #0ff5f5;}
+
+QLineEdit{border-image: url(:/resource/image/login_input_normal.png);}
+QLineEdit:pressed{border-image: url(:/resource/image/login_input_selected.png);}
+
+QLineEdit{
+font-size:24px;
+font-family:Source Han Sans CN;
+font-weight:400;
+color:rgba(255,255,255,1);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="placeholderText">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="closeButton">
+      <property name="geometry">
+       <rect>
+        <x>1809</x>
+        <y>57</y>
+        <width>55</width>
+        <height>55</height>
+       </rect>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/resource/image/btn_close_normal.png);}
+QPushButton:hover{border-image: url(:/resource/image/btn_close_press.png);}
+QPushButton:pressed{border-image: url(:/resource/image/btn_close_press.png);}
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>300</y>
+        <width>710</width>
+        <height>535</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/resource/image/login_border.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>384</y>
+        <width>65</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">width:65px;
+height:26px;
+font-size:28px;
+font-family:Source Han Sans CN;
+font-weight:400;
+color:rgba(255,255,255,1);</string>
+      </property>
+      <property name="text">
+       <string>账号：</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>515</y>
+        <width>65</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">width:65px;
+height:26px;
+font-size:28px;
+font-family:Source Han Sans CN;
+font-weight:400;
+color:rgba(255,255,255,1);</string>
+      </property>
+      <property name="text">
+       <string>密码：</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>994</y>
+        <width>501</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">width:501px;
+height:27px;
+font-size:28px;
+font-family:Source Han Sans CN;
+font-weight:400;
+color:rgba(255,255,255,1);
+opacity:0.8;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;版权所有：深圳市黑猫科技有限公司&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="loginTips_0">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>640</y>
+        <width>321</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Source Han Sans CN</family>
+        <pointsize>-1</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size:20px;
+font-family:Source Han Sans CN;
+color:rgba(255,69,69,1);</string>
+      </property>
+      <property name="text">
+       <string>用户名与密码不匹配！</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="loginTips_1">
+      <property name="geometry">
+       <rect>
+        <x>1034</x>
+        <y>384</y>
+        <width>171</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Source Han Sans CN</family>
+        <pointsize>-1</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font-size:20px;
+font-family:Source Han Sans CN;
+color:rgba(255,69,69,1);</string>
+      </property>
+      <property name="text">
+       <string>您输入的账号有误！</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="loginTips_2">
+      <property name="geometry">
+       <rect>
+        <x>1034</x>
+        <y>515</y>
+        <width>171</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Source Han Sans CN</family>
+        <pointsize>-1</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size:20px;
+font-family:Source Han Sans CN;
+color:rgba(255,69,69,1);</string>
+      </property>
+      <property name="text">
+       <string>您输入的密码有误！</string>
+      </property>
+     </widget>
+     <zorder>label_2</zorder>
+     <zorder>loginButton</zorder>
+     <zorder>label</zorder>
+     <zorder>accountEdit</zorder>
+     <zorder>passwordEdit</zorder>
+     <zorder>closeButton</zorder>
+     <zorder>label_3</zorder>
+     <zorder>label_4</zorder>
+     <zorder>label_5</zorder>
+     <zorder>loginTips_0</zorder>
+     <zorder>loginTips_1</zorder>
+     <zorder>loginTips_2</zorder>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>accountEdit</tabstop>
+  <tabstop>passwordEdit</tabstop>
+  <tabstop>loginButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,241 @@
+{
+	"description" : "静态上图",
+	"key" : "RoadParam",
+	"nodeType" : 15,
+	"nodeTypeName" : "NODE_ROAD",
+	"param" : 
+	[
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 4,
+			"key" : "strFlagName",
+			"sort" : 1,
+			"text" : "业务标识名称",
+			"value" : ""
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 2,
+			"key" : "nVersion",
+			"sort" : 1,
+			"text" : "版本",
+			"value" : "1"
+		},
+		{
+			"children" : [],
+			"description" : "0:贴图,1:颜色实现,2:颜色虚线",
+			"eType" : 6,
+			"key" : "eType",
+			"sort" : 1,
+			"text" : "道路类型",
+			"value" : "0"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 1,
+			"key" : "fWidth",
+			"sort" : 1,
+			"text" : "道路宽度",
+			"value" : "5"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 1,
+			"key" : "fStep",
+			"sort" : 1,
+			"text" : "道路步长",
+			"value" : "5"
+		},
+		{
+			"children" : [],
+			"description" : "0:FIXED_HEIGHT,1:CALC_WITH_MAP,2:COLL_WITH_NODE",
+			"eType" : 6,
+			"key" : "nCalcHeightType",
+			"sort" : 1,
+			"text" : "计算高度类型",
+			"value" : "1"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 1,
+			"key" : "fFixedHeight",
+			"sort" : 1,
+			"text" : "固定高度",
+			"value" : "0"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 4,
+			"key" : "strHeightFilePath",
+			"sort" : 1,
+			"text" : "场景高度图路径",
+			"value" : ""
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 1,
+			"key" : "fAdjustHeight",
+			"sort" : 1,
+			"text" : "高度计算后的调整",
+			"value" : "0"
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 7,
+			"key" : "bDepthTest",
+			"sort" : 1,
+			"text" : "是否开启深度测试",
+			"value" : true
+		},
+		{
+			"children" : 
+			[
+				{
+					"children" : [],
+					"description" : "",
+					"eType" : 1,
+					"key" : "fGlowIntensity",
+					"sort" : 1,
+					"text" : "辉光强度",
+					"value" : "5"
+				},
+				{
+					"children" : [],
+					"description" : "",
+					"eType" : 7,
+					"key" : "bGlowFlash",
+					"sort" : 1,
+					"text" : "是否辉光闪烁",
+					"value" : false
+				},
+				{
+					"children" : [],
+					"description" : "",
+					"eType" : 1,
+					"key" : "fGlowFlashSpeed",
+					"sort" : 1,
+					"text" : "辉光闪烁速度",
+					"value" : "0"
+				},
+				{
+					"children" : [],
+					"description" : "",
+					"eType" : 7,
+					"key" : "bIntersectEnable",
+					"sort" : 1,
+					"text" : "是否计算相交",
+					"value" : false
+				}
+			],
+			"description" : "",
+			"eType" : 7,
+			"key" : "bGlow",
+			"sort" : 1,
+			"text" : "是否开启辉光",
+			"value" : false
+		},
+		{
+			"children" : [],
+			"description" : "",
+			"eType" : 2,
+			"key" : "nNumArc",
+			"sort" : 1,
+			"text" : "道路拐角半径",
+			"value" : "4"
+		},
+		{
+			"children" : 
+			[
+				{
+					"children" : [],
+					"description" : "",
+					"eType" : 0,
+					"key" : "strImage",
+					"sort" : 1,
+					"text" : "道路贴图",
+					"value" : ""
+				},
+				{
+					"children" : [],
+					"description" : "",
+					"eType" : 7,
+					"key" : "bAnimation",
+					"sort" : 1,
+					"text" : "贴图是否流动",
+					"value" : false
+				},
+				{
+					"children" : [],
+					"description" : "",
+					"eType" : 1,
+					"key" : "fAnimationSpeed",
+					"sort" : 1,
+					"text" : "贴图流动速度",
+					"value" : "0"
+				}
+			],
+			"description" : "",
+			"eType" : 7,
+			"key" : "attrs_image",
+			"sort" : 1,
+			"text" : "贴图类型参数",
+			"value" : true
+		},
+		{
+			"children" : 
+			[
+				{
+					"children" : [],
+					"description" : "",
+					"eType" : 14,
+					"key" : "vLineColor",
+					"sort" : 1,
+					"text" : "道路颜色",
+					"value" : "255.000000,255.000000,255.000000,1.000000"
+				},
+				{
+					"children" : [],
+					"description" : "",
+					"eType" : 1,
+					"key" : "fLineWidth",
+					"sort" : 1,
+					"text" : "道路宽度",
+					"value" : "1"
+				},
+				{
+					"children" : [],
+					"description" : "",
+					"eType" : 14,
+					"key" : "vPointColor",
+					"sort" : 1,
+					"text" : "道路插入点颜色",
+					"value" : "255.000000,255.000000,255.000000,1.000000"
+				},
+				{
+					"children" : [],
+					"description" : "",
+					"eType" : 1,
+					"key" : "fPointSize",
+					"sort" : 1,
+					"text" : "道路插入点大小",
+					"value" : "1"
+				}
+			],
+			"description" : "",
+			"eType" : 7,
+			"key" : "attrs_color",
+			"sort" : 1,
+			"text" : "颜色类型参数",
+			"value" : false
+		}
+	],
+	"sort" : 200
+}

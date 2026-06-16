@@ -1,0 +1,518 @@
+[
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 4,
+		"key" : "strFlagName",
+		"sort" : 1,
+		"text" : "业务标识名称",
+		"value" : ""
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 2,
+		"key" : "nVersion",
+		"sort" : 1,
+		"text" : "版本",
+		"value" : "-1"
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 1,
+		"key" : "fWidth",
+		"sort" : 1,
+		"text" : "宽",
+		"value" : "1"
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 1,
+		"key" : "fHeight",
+		"sort" : 1,
+		"text" : "高",
+		"value" : "1"
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 1,
+		"key" : "fLength",
+		"sort" : 1,
+		"text" : "厚",
+		"value" : "1"
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 8,
+		"key" : "vBoardCenter",
+		"sort" : 1,
+		"text" : "中点",
+		"value" : "0.000000,0.000000"
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 1,
+		"key" : "fScale",
+		"sort" : 1,
+		"text" : "常规放大倍数",
+		"value" : "1"
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 1,
+		"key" : "fSelectedRate",
+		"sort" : 1,
+		"text" : "常规选中放大倍数",
+		"value" : "3"
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 7,
+		"key" : "bClickScale",
+		"sort" : 1,
+		"text" : "是否点击后能缩放",
+		"value" : false
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 0,
+		"key" : "strImage",
+		"sort" : 1,
+		"text" : "常规背景",
+		"value" : ""
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 0,
+		"key" : "strPlaceHolderImage",
+		"sort" : 1,
+		"text" : "占位图",
+		"value" : ""
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 0,
+		"key" : "strModelName",
+		"sort" : 1,
+		"text" : "模型路径",
+		"value" : ""
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 9,
+		"key" : "vModelAngle",
+		"sort" : 1,
+		"text" : "模型角度",
+		"value" : "0.000000,0.000000,0.000000"
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 9,
+		"key" : "vModelScale",
+		"sort" : 1,
+		"text" : "模型缩放",
+		"value" : "1.000000,1.000000,1.000000"
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 7,
+		"key" : "bClickEnable",
+		"sort" : 1,
+		"text" : "是否可点击",
+		"value" : true
+	},
+	{
+		"children" : 
+		[
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 0,
+				"key" : "strCheckedImage",
+				"sort" : 1,
+				"text" : "选中背景",
+				"value" : ""
+			}
+		],
+		"description" : "",
+		"eType" : 7,
+		"key" : "bCheckEnable",
+		"sort" : 1,
+		"text" : "是否可选中",
+		"value" : false
+	},
+	{
+		"children" : 
+		[
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 0,
+				"key" : "strHoverImage",
+				"sort" : 1,
+				"text" : "悬停背景",
+				"value" : ""
+			}
+		],
+		"description" : "",
+		"eType" : 7,
+		"key" : "bHoverEnable",
+		"sort" : 1,
+		"text" : "是否可悬停",
+		"value" : false
+	},
+	{
+		"children" : [],
+		"description" : "0:NormalDirect,1:BillBoard,2:FrontToCamera",
+		"eType" : 6,
+		"key" : "direction",
+		"sort" : 1,
+		"text" : "方向类型",
+		"value" : "0"
+	},
+	{
+		"children" : 
+		[
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 1,
+				"key" : "fDynamicScale",
+				"sort" : 1,
+				"text" : "动态缩放比例",
+				"value" : "0"
+			},
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 1,
+				"key" : "fDynamicMaxScale",
+				"sort" : 1,
+				"text" : "最大动态缩放比例",
+				"value" : "0"
+			},
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 1,
+				"key" : "fDynamicMinScale",
+				"sort" : 1,
+				"text" : "最小动态缩放比例",
+				"value" : "0"
+			}
+		],
+		"description" : "",
+		"eType" : 7,
+		"key" : "bDynamicScaleEnable",
+		"sort" : 1,
+		"text" : "是否可动态缩放",
+		"value" : false
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 1,
+		"key" : "fVisibleDistance",
+		"sort" : 1,
+		"text" : "距离范围内可见",
+		"value" : "0"
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 1,
+		"key" : "fHideLessDistance",
+		"sort" : 1,
+		"text" : "小于范围内隐藏",
+		"value" : "0"
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 7,
+		"key" : "bGlowEnable",
+		"sort" : 1,
+		"text" : "是否有辉光",
+		"value" : false
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 1,
+		"key" : "fGlowIntensity",
+		"sort" : 1,
+		"text" : "辉光强度",
+		"value" : "4"
+	},
+	{
+		"children" : 
+		[
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 14,
+				"key" : "vLineColor",
+				"sort" : 1,
+				"text" : "引线颜色",
+				"value" : "255.000000,255.000000,255.000000,1.000000"
+			},
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 14,
+				"key" : "vHoverLineColor",
+				"sort" : 1,
+				"text" : "引线悬停颜色",
+				"value" : "255.000000,255.000000,255.000000,1.000000"
+			},
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 14,
+				"key" : "vCheckedLineColor",
+				"sort" : 1,
+				"text" : "引线选中颜色",
+				"value" : "255.000000,255.000000,255.000000,1.000000"
+			},
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 1,
+				"key" : "fLineWidth",
+				"sort" : 1,
+				"text" : "引线宽度",
+				"value" : "1"
+			},
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 7,
+				"key" : "bLinePoint",
+				"sort" : 1,
+				"text" : "是否有引线点",
+				"value" : false
+			}
+		],
+		"description" : "",
+		"eType" : 7,
+		"key" : "bWithLine",
+		"sort" : 1,
+		"text" : "是否有引线",
+		"value" : false
+	},
+	{
+		"children" : 
+		[
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 1,
+				"key" : "fWidth",
+				"sort" : 1,
+				"text" : "宽",
+				"value" : "10"
+			},
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 1,
+				"key" : "fHeight",
+				"sort" : 1,
+				"text" : "高",
+				"value" : "10"
+			},
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 1,
+				"key" : "fLength",
+				"sort" : 1,
+				"text" : "厚",
+				"value" : "10"
+			},
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 0,
+				"key" : "strImage",
+				"sort" : 1,
+				"text" : "常规背景",
+				"value" : ""
+			},
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 1,
+				"key" : "fHeightToBoard",
+				"sort" : 1,
+				"text" : "离面板高度",
+				"value" : "0"
+			},
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 0,
+				"key" : "strModelName",
+				"sort" : 1,
+				"text" : "模型名字",
+				"value" : ""
+			},
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 9,
+				"key" : "vModelAngle",
+				"sort" : 1,
+				"text" : "模型角度",
+				"value" : "0.000000,0.000000,0.000000"
+			},
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 9,
+				"key" : "vModelScale",
+				"sort" : 1,
+				"text" : "模型缩放",
+				"value" : "1.000000,1.000000,1.000000"
+			},
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 7,
+				"key" : "bGlowEnable",
+				"sort" : 1,
+				"text" : "是否有辉光",
+				"value" : false
+			},
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 1,
+				"key" : "fGlowIntensity",
+				"sort" : 1,
+				"text" : "辉光强度",
+				"value" : "5"
+			},
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 1,
+				"key" : "fScale",
+				"sort" : 1,
+				"text" : "缩放",
+				"value" : "1"
+			},
+			{
+				"children" : [],
+				"description" : "0:NormalDirect,1:BillBoard",
+				"eType" : 6,
+				"key" : "nDirection",
+				"sort" : 1,
+				"text" : "方向类型",
+				"value" : "0"
+			}
+		],
+		"description" : "",
+		"eType" : 7,
+		"key" : "bWithBase",
+		"sort" : 1,
+		"text" : "是否有底座",
+		"value" : false
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 7,
+		"key" : "bDepthTest",
+		"sort" : 1,
+		"text" : "是否深度测试",
+		"value" : true
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 7,
+		"key" : "bDepthClamp",
+		"sort" : 1,
+		"text" : "是否关闭远近平面裁剪",
+		"value" : false
+	},
+	{
+		"children" : 
+		[
+			{
+				"children" : [],
+				"description" : "",
+				"eType" : 8,
+				"key" : "vDistanceToTarget",
+				"sort" : 2,
+				"text" : "相对偏移",
+				"value" : "50.000000,50.000000"
+			}
+		],
+		"description" : "",
+		"eType" : 7,
+		"key" : "bRotateAroundTarget",
+		"sort" : 2,
+		"text" : "是否相对旋转",
+		"value" : false
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 7,
+		"key" : "bNeedClarity",
+		"sort" : 2,
+		"text" : "是否需要透明",
+		"value" : true
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 1,
+		"key" : "fAlphaThreshold",
+		"sort" : 2,
+		"text" : "透明阈值",
+		"value" : "0.200000"
+	},
+	{
+		"children" : [],
+		"description" : "0:TRANSPARENT_NONE,1:TRANSPARENT_BLEND,2:TRANSPARENT_AVERAGE",
+		"eType" : 6,
+		"key" : "eTransparentType",
+		"sort" : 2,
+		"text" : "透明模式",
+		"value" : "1"
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 8,
+		"key" : "vTopLeftOffset",
+		"sort" : 1,
+		"text" : "左上角边距",
+		"value" : "0.000000,0.000000"
+	},
+	{
+		"children" : [],
+		"description" : "",
+		"eType" : 11,
+		"key" : "vecText",
+		"sort" : 2,
+		"text" : "文字",
+		"value" : ""
+	}
+]

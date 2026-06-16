@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SourceCode">
+      <UniqueIdentifier>{e0ed5b15-9714-421d-a396-d6e864226328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Client">
+      <UniqueIdentifier>{ff654c98-038b-4fed-88ba-fd1f19c93632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Client\statemachine">
+      <UniqueIdentifier>{e2479a5a-681e-46d4-9d32-ecc2fd29349a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Client\data">
+      <UniqueIdentifier>{fc0b0b57-90cb-48a1-b7cf-9fe2d39a7db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Client\factory">
+      <UniqueIdentifier>{7860971d-ef0d-44b0-8771-01193331aca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Client\statemachine\StateModule">
+      <UniqueIdentifier>{d3040588-0ffc-466a-82e3-52cbbad93e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Client\statemachine\StateModule\SampleModule">
+      <UniqueIdentifier>{9f79d32b-1554-46ff-80db-dcf05441ea21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Client\statemachine\StateModule\ProjectModule">
+      <UniqueIdentifier>{18526787-344d-4706-b6e2-442ca4e957f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Client\test">
+      <UniqueIdentifier>{89fd1c73-f969-4ba2-a97d-d8a0c7ba7d2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceCode\UserHeader.h">
+      <Filter>SourceCode</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Client\ProjectClientAPI.h">
+      <Filter>SourceCode\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Client\ProjectClientCom.h">
+      <Filter>SourceCode\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Client\statemachine\SampleState.h">
+      <Filter>SourceCode\Client\statemachine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Client\statemachine\StateModule\SampleModule\SampleModule.h">
+      <Filter>SourceCode\Client\statemachine\StateModule\SampleModule</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Client\statemachine\HCBaseState.h">
+      <Filter>SourceCode\Client\statemachine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Client\statemachine\GlobalState.h">
+      <Filter>SourceCode\Client\statemachine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Client\data\IProjectData.h">
+      <Filter>SourceCode\Client\data</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Client\test\TestFactory.h">
+      <Filter>SourceCode\Client\test</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Client\test\TestInstanceFactory.h">
+      <Filter>SourceCode\Client\test</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Client\test\TestClusterFunc.h">
+      <Filter>SourceCode\Client\test</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Client\data\ProjectSceneElementLoader.h">
+      <Filter>SourceCode\Client\data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SourceCode\Client\comExport.def">
+      <Filter>SourceCode\Client</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceCode\Client\ProjectClientAPI.cpp">
+      <Filter>SourceCode\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Client\ProjectClientCom.cpp">
+      <Filter>SourceCode\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Client\statemachine\SampleState.cpp">
+      <Filter>SourceCode\Client\statemachine</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Client\statemachine\StateModule\SampleModule\SampleModule.cpp">
+      <Filter>SourceCode\Client\statemachine\StateModule\SampleModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Client\statemachine\HCBaseState.cpp">
+      <Filter>SourceCode\Client\statemachine</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Client\statemachine\GlobalState.cpp">
+      <Filter>SourceCode\Client\statemachine</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Client\test\TestFactory.cpp">
+      <Filter>SourceCode\Client\test</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Client\test\TestInstanceFactory.cpp">
+      <Filter>SourceCode\Client\test</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Client\test\TestClusterFunc.cpp">
+      <Filter>SourceCode\Client\test</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Client\data\ProjectSceneElementLoader.cpp">
+      <Filter>SourceCode\Client\data</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
