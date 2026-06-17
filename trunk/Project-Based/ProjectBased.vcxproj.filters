@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SourceCode">
+      <UniqueIdentifier>{01bddc73-bfff-4d1f-a443-d79f854ddb67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\utils">
+      <UniqueIdentifier>{5a6ef30c-24c8-4383-959a-9c9228559fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\base">
+      <UniqueIdentifier>{31d93d08-8d39-43a6-91f6-9b9538b051ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\utils\tools">
+      <UniqueIdentifier>{344d8ffb-b933-4a50-bd33-a73f35ad2f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\utils\animate">
+      <UniqueIdentifier>{98c7ff0f-f2d1-4a93-b2d7-d0646479a0e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\webApi">
+      <UniqueIdentifier>{902e5618-af4b-4670-8ab8-6050890e0e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\module">
+      <UniqueIdentifier>{295367fd-f79e-458f-b1b8-7452fa406563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\StateMachine">
+      <UniqueIdentifier>{2473624c-cb9e-407e-953b-e3809f6299d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\label">
+      <UniqueIdentifier>{7b7bed0a-3876-4d89-8018-fd45cd71f591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\label\func">
+      <UniqueIdentifier>{6f8023ea-5ded-4d43-b557-55a564bdf84a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\label\instance">
+      <UniqueIdentifier>{5effc919-620f-47d5-ab55-ea3f0434dc43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\redis">
+      <UniqueIdentifier>{d42f751b-5d6a-41dc-bdfe-b37c1f1390aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Factory">
+      <UniqueIdentifier>{0db83b60-6f9c-4f7b-8888-97aeeb8c5271}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceCode\StateMachine\StateManager.cpp">
+      <Filter>SourceCode\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\ThreadWrapper.cpp">
+      <Filter>SourceCode\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\KMapAdapter.cpp">
+      <Filter>SourceCode\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\ParamNetImage.cpp">
+      <Filter>SourceCode\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\ParamParseStream.cpp">
+      <Filter>SourceCode\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\ProjectUtils.cpp">
+      <Filter>SourceCode\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\TweenAnimateForNode.cpp">
+      <Filter>SourceCode\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\StateMachine\StateData.cpp">
+      <Filter>SourceCode\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\base\BuildIndoorStateFactory.cpp">
+      <Filter>SourceCode\base</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\base\HeatmapFactory.cpp">
+      <Filter>SourceCode\base</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\base\VideoInspectionFactory.cpp">
+      <Filter>SourceCode\base</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\pLocal.cpp">
+      <Filter>SourceCode\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\tools\CircleStatisticsTool.cpp">
+      <Filter>SourceCode\utils\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\animate\TranslateAnimateObject.cpp">
+      <Filter>SourceCode\utils\animate</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\animate\RotateAnimateObject.cpp">
+      <Filter>SourceCode\utils\animate</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\AnimateWithNodeMg.cpp">
+      <Filter>SourceCode\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\tools\BaseStatisticsTool.cpp">
+      <Filter>SourceCode\utils\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\tools\PolygonStatisticsTool.cpp">
+      <Filter>SourceCode\utils\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\tools\LineStatisticsTool.cpp">
+      <Filter>SourceCode\utils\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\animate\EasingAnimate.cpp">
+      <Filter>SourceCode\utils\animate</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\animate\BaseAnimateObject.cpp">
+      <Filter>SourceCode\utils\animate</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\animate\Easing.cpp">
+      <Filter>SourceCode\utils\animate</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\animate\ScaleAnimateObject.cpp">
+      <Filter>SourceCode\utils\animate</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\ProjectLogger.cpp">
+      <Filter>SourceCode\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\tools\AreaMeasureTool.cpp">
+      <Filter>SourceCode\utils\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\tools\DistanceMeasureTool.cpp">
+      <Filter>SourceCode\utils\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\webApi\WebCommonApi.cpp">
+      <Filter>SourceCode\webApi</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\webApi\WebLabelParser.cpp">
+      <Filter>SourceCode\webApi</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\tools\ViewshedAnalysisTool.cpp">
+      <Filter>SourceCode\utils\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\tools\SightAnalysisTool.cpp">
+      <Filter>SourceCode\utils\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\module\IStateModule.cpp">
+      <Filter>SourceCode\module</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\module\YBSSModule.cpp">
+      <Filter>SourceCode\module</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\tools\IsolatedTool.cpp">
+      <Filter>SourceCode\utils\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\module\RoamPathModule.cpp">
+      <Filter>SourceCode\module</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\module\DynamicHorizonModule.cpp">
+      <Filter>SourceCode\module</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\tools\VideoFusionTool.cpp">
+      <Filter>SourceCode\utils\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\module\VideoFisionModule.cpp">
+      <Filter>SourceCode\module</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\module\HeatmapModule.cpp">
+      <Filter>SourceCode\module</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\label\func\IFunc.cpp">
+      <Filter>SourceCode\label\func</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\label\DefaultDetailFactory.cpp">
+      <Filter>SourceCode\label</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\label\func\ClusterFunc.cpp">
+      <Filter>SourceCode\label\func</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\label\func\DefaultClusterFunc.cpp">
+      <Filter>SourceCode\label\func</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\label\func\OverTapFunc.cpp">
+      <Filter>SourceCode\label\func</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\label\func\ClusterFuncFactory.cpp">
+      <Filter>SourceCode\label\func</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\label\func\OverTapFuncFactory.cpp">
+      <Filter>SourceCode\label\func</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\label\func\SmoothMoveFunc.cpp">
+      <Filter>SourceCode\label\func</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\label\func\ReadHeightTifFunc.cpp">
+      <Filter>SourceCode\label\func</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\label\HeightTifReader.cpp">
+      <Filter>SourceCode\label</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\label\func\DetailScaleFunc.cpp">
+      <Filter>SourceCode\label\func</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\label\instance\InstanceSelector.cpp">
+      <Filter>SourceCode\label\instance</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\label\CommonLabelFactory.cpp">
+      <Filter>SourceCode\label</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\label\InstanceLabelFactory.cpp">
+      <Filter>SourceCode\label</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\label\LabelDetailFactory.cpp">
+      <Filter>SourceCode\label</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\webApi\IWebLabelFactory.cpp">
+      <Filter>SourceCode\webApi</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\utils\tools\RoadAuxiliaryTool.cpp">
+      <Filter>SourceCode\utils\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\redis\BCRedis.cpp">
+      <Filter>SourceCode\redis</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\module\LayerEditModule.cpp">
+      <Filter>SourceCode\module</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\ProjectBasedAPI.cpp" />
+    <ClCompile Include="SourceCode\ProjectBasedCom.cpp" />
+    <ClCompile Include="SourceCode\base\ProjectBasedClient.cpp">
+      <Filter>SourceCode\base</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\base\SceneElementLoader.cpp">
+      <Filter>SourceCode\base</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Factory\BuildIndoorFactory.cpp">
+      <Filter>SourceCode\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Factory\LayerDebugSceneLoader.cpp">
+      <Filter>SourceCode\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Factory\SubInstanceLabelFactory.cpp">
+      <Filter>SourceCode\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Factory\SubLabelFactory.cpp">
+      <Filter>SourceCode\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Factory\TencentHeatMapFactory.cpp">
+      <Filter>SourceCode\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Factory\BCVideoInspectionFactory.cpp">
+      <Filter>SourceCode\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\module\BaseModule.cpp">
+      <Filter>SourceCode\module</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\webApi\WebLayerInsLabelFactory.cpp">
+      <Filter>SourceCode\webApi</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\webApi\WebLayerLabelFactory.cpp">
+      <Filter>SourceCode\webApi</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\webApi\WebPoiLabelFactory.cpp">
+      <Filter>SourceCode\webApi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceCode\StateMachine\StateData.h">
+      <Filter>SourceCode\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\StateMachine\StateManager.h">
+      <Filter>SourceCode\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\label\DefaultDetailFactory.h">
+      <Filter>SourceCode\label</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\label\func\DefaultClusterFunc.h">
+      <Filter>SourceCode\label\func</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\label\func\ClusterFuncFactory.h">
+      <Filter>SourceCode\label\func</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\label\func\OverTapFuncFactory.h">
+      <Filter>SourceCode\label\func</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\label\HeightTifReader.h">
+      <Filter>SourceCode\label</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\label\instance\InstanceSelector.h">
+      <Filter>SourceCode\label\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\ProjectBasedAPI.h" />
+    <ClInclude Include="SourceCode\ProjectBasedCom.h" />
+    <ClInclude Include="SourceCode\ProjectBasedHeader.h" />
+    <ClInclude Include="SourceCode\Factory\LayerDebugSceneLoader.h">
+      <Filter>SourceCode\Factory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SourceCode\comExport.def">
+      <Filter>SourceCode</Filter>
+    </None>
+  </ItemGroup>
+</Project>
